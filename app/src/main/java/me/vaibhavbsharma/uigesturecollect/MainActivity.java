@@ -24,27 +24,15 @@ import android.view.View;
 * limitations under the License.
 */
 
-import android.app.FragmentManager;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.VelocityTrackerCompat;
-import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.VelocityTracker;
-import android.view.View;
-import android.widget.EditText;
 
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;

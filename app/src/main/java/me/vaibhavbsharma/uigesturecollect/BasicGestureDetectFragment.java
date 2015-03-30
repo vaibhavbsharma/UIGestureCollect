@@ -17,32 +17,11 @@ package me.vaibhavbsharma.uigesturecollect;
 */
 
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.Fragment;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.EditText;
-
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.SystemClock;
-import android.support.v4.app.Fragment;
-
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
-import android.view.GestureDetector;
-import android.view.KeyEvent;
-import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.EditText;
 
 
 public class BasicGestureDetectFragment extends Fragment {
@@ -120,7 +99,7 @@ public class BasicGestureDetectFragment extends Fragment {
                 return false;
             }
         });*/
-        ((EditText)gV_name_string).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_name_string).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(MAIN_ACTIVITY_NAME_STRING, "TextChangedCharSequence = " + s + "  at time = " + SystemClock.uptimeMillis());
@@ -135,7 +114,7 @@ public class BasicGestureDetectFragment extends Fragment {
             public void afterTextChanged(Editable s) {
                 Log.i(MAIN_ACTIVITY_NAME_STRING,"afterTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*NUMBER_STRING*/
         /*GestureDetector.SimpleOnGestureListener gL_number_string = new GestureListener(MAIN_ACTIVITY_NUMBER_STRING);
@@ -147,7 +126,7 @@ public class BasicGestureDetectFragment extends Fragment {
                 return false;
             }
         });*/
-        ((EditText)gV_number_string).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_number_string).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(MAIN_ACTIVITY_NUMBER_STRING, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
@@ -162,7 +141,7 @@ public class BasicGestureDetectFragment extends Fragment {
             public void afterTextChanged(Editable s) {
                 Log.i(MAIN_ACTIVITY_NUMBER_STRING,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*QWERTY_STRING*/
         /*GestureDetector.SimpleOnGestureListener gL_qwerty_string = new GestureListener(MAIN_ACTIVITY_QWERTY_STRING);
@@ -174,7 +153,7 @@ public class BasicGestureDetectFragment extends Fragment {
                 return false;
             }
         });*/
-        ((EditText)gV_qwerty_string).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_qwerty_string).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(MAIN_ACTIVITY_QWERTY_STRING, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
@@ -189,7 +168,7 @@ public class BasicGestureDetectFragment extends Fragment {
             public void afterTextChanged(Editable s) {
                 Log.i(MAIN_ACTIVITY_QWERTY_STRING,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*SUBJECT_NUMBER*/
         /*GestureDetector.SimpleOnGestureListener gL_subject_number = new GestureListener(MAIN_ACTIVITY_SUBJECT_NUMBER);
@@ -201,7 +180,7 @@ public class BasicGestureDetectFragment extends Fragment {
                 return false;
             }
         });*/
-        ((EditText)gV_subject_number).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_subject_number).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(MAIN_ACTIVITY_SUBJECT_NUMBER, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
@@ -216,7 +195,7 @@ public class BasicGestureDetectFragment extends Fragment {
             public void afterTextChanged(Editable s) {
                 Log.i(MAIN_ACTIVITY_SUBJECT_NUMBER,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*MAIN_ACTIVITY_NEXT_BUTTON*/
         GestureDetector.SimpleOnGestureListener gL_next_button = new GestureListener(MAIN_ACTIVITY_NEXT_BUTTON);

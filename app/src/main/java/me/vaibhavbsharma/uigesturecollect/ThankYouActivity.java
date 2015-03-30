@@ -49,7 +49,7 @@ public class ThankYouActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_final, menu);
+        getMenuInflater().inflate(R.menu.menu_thank_you, menu);
         MenuItem subjectNumber = menu.findItem(R.id.subject_number);
         String filename = "SubjectNumber.txt";
         int subjNumber=-1;
@@ -68,6 +68,7 @@ public class ThankYouActivity extends Activity {
             br.close();
         }
         catch (IOException e) {
+            Log.i(TAG,"SubjectNumber.txt could not be opened/read");
             //You'll need to add proper error handling here
         }
         subjectNumber.setTitle("Subject # "+text);

@@ -21,12 +21,8 @@ import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
-import android.os.SystemClock;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
-
 //import com.example.android.common.logger.Log;
-import android.util.Log;
+
 
 public class GestureListener extends GestureDetector.SimpleOnGestureListener {
 
@@ -88,6 +84,10 @@ public class GestureListener extends GestureDetector.SimpleOnGestureListener {
                             float distanceY) {
         // User attempted to scroll
         Log.i(TAG, "Scroll at time = "+ SystemClock.uptimeMillis());
+        if(event1==null || event2 == null) {
+            Log.i(TAG,"Scroll returned");
+            return false;
+        }
         int historySize = event1.getHistorySize();
         int pointerCount = event1.getPointerCount();
         for (int h = 0; h < historySize; h++) {

@@ -17,20 +17,13 @@ package me.vaibhavbsharma.uigesturecollect;
 */
 
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.Fragment;
 
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
 import android.view.GestureDetector;
-import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.EditText;
 
 
 public class TextGDFragment extends Fragment{
@@ -57,6 +50,10 @@ public class TextGDFragment extends Fragment{
 
         View gV_answer3 = getActivity().findViewById(R.id.text_answer3);
         View gV_answer4 = getActivity().findViewById(R.id.text_answer4);
+        View gV_answer5 = getActivity().findViewById(R.id.text_answer5);
+        View gV_answer6 = getActivity().findViewById(R.id.text_answer6);
+        View gV_answer7 = getActivity().findViewById(R.id.text_answer7);
+        View gV_answer8 = getActivity().findViewById(R.id.text_answer8);
 
         //View gV_text_activity = getActivity().findViewById(R.id.text_activity);
         View gV_name_string = getActivity().findViewById(R.id.text_name_string);
@@ -95,7 +92,7 @@ public class TextGDFragment extends Fragment{
                 return false;
             }
         });*/
-        ((EditText)gV_answer3).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_answer3).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(TEXT_ACTIVITY_ANSWER3, "TextChangedCharSequence = "+s+"  at time = "+ SystemClock.uptimeMillis());
@@ -110,7 +107,7 @@ public class TextGDFragment extends Fragment{
             public void afterTextChanged(Editable s) {
                 Log.i(TEXT_ACTIVITY_ANSWER3,"afterTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*ANSWER2*/
         /*GestureDetector.SimpleOnGestureListener gL_subject_number = new GestureListener(CHECKBOX_ACTIVITY_ANSWER2);
@@ -122,7 +119,7 @@ public class TextGDFragment extends Fragment{
                 return false;
             }
         });*/
-        ((EditText)gV_answer4).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_answer4).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(TEXT_ACTIVITY_ANSWER4, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
@@ -138,6 +135,75 @@ public class TextGDFragment extends Fragment{
                 Log.i(TEXT_ACTIVITY_ANSWER4,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
             }
         });
+
+
+        ((EditText)gV_answer5).addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Log.i(TEXT_ACTIVITY_ANSWER4, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"beforeTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+        });
+
+        ((EditText)gV_answer6).addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Log.i(TEXT_ACTIVITY_ANSWER4, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"beforeTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+        });
+
+        ((EditText)gV_answer7).addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Log.i(TEXT_ACTIVITY_ANSWER4, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"beforeTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+        });
+
+        ((EditText)gV_answer8).addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Log.i(TEXT_ACTIVITY_ANSWER4, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"beforeTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+        });*/
 
 
 
@@ -172,7 +238,7 @@ public class TextGDFragment extends Fragment{
                 return false;
             }
         });*/
-        ((EditText)gV_name_string).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_name_string).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(TEXT_ACTIVITY_NAME_STRING, "TextChangedCharSequence = "+s+"  at time = "+ SystemClock.uptimeMillis());
@@ -187,7 +253,7 @@ public class TextGDFragment extends Fragment{
             public void afterTextChanged(Editable s) {
                 Log.i(TEXT_ACTIVITY_NAME_STRING,"afterTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*SUBJECT_NUMBER*/
         /*GestureDetector.SimpleOnGestureListener gL_subject_number = new GestureListener(TEXT_ACTIVITY_SUBJECT_NUMBER);
@@ -199,7 +265,7 @@ public class TextGDFragment extends Fragment{
                 return false;
             }
         });*/
-        ((EditText)gV_subject_number).addTextChangedListener(new TextWatcher() {
+        /*((EditText)gV_subject_number).addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 Log.i(TEXT_ACTIVITY_SUBJECT_NUMBER, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
@@ -214,7 +280,7 @@ public class TextGDFragment extends Fragment{
             public void afterTextChanged(Editable s) {
                 Log.i(TEXT_ACTIVITY_SUBJECT_NUMBER,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
             }
-        });
+        });*/
 
         /*TEXT*/
         /*GestureDetector.SimpleOnGestureListener gL_text = new GestureListener(TEXT_ACTIVITY_TEXT);

@@ -24,24 +24,10 @@ import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.text.Editable;
 import android.text.InputType;
+import android.util.Log;
+import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.WindowManager;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
-
-
-import android.app.Activity;
-import android.inputmethodservice.Keyboard;
-import android.inputmethodservice.KeyboardView;
-import android.inputmethodservice.KeyboardView.OnKeyboardActionListener;
-import android.text.Editable;
-import android.text.InputType;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.View.OnFocusChangeListener;
-import android.view.View.OnTouchListener;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -72,6 +58,7 @@ class CustomKeyboard {
         public final static int CodeAllRight = 55004;
         public final static int CodeNext     = 55005;
         public final static int CodeClear    = 55006;
+        private final String TAG="CustomKeyboard";
 
         @Override public void onKey(int primaryCode, int[] keyCodes) {
             // NOTE We can say '<Key android:codes="49,50" ... >' in the xml file; all codes come in keyCodes, the first in this list in primaryCode
@@ -108,6 +95,8 @@ class CustomKeyboard {
             else { // insert character
                 editable.insert(start, Character.toString((char) primaryCode));
             }
+
+            Log.i(TAG, "onKey = " + primaryCode);
         }
 
         @Override public void onPress(int arg0) {
@@ -201,6 +190,10 @@ class CustomKeyboard {
                 edittext.setInputType(InputType.TYPE_NULL); // Disable standard keyboard
                 edittext.onTouchEvent(event);               // Call native handler
                 edittext.setInputType(inType);              // Restore input type
+
+                GestureDetector.SimpleOnGestureListener gL_name_string = new GestureListener(edittext.getResources().getResourceName(edittext.getId()));
+                final GestureDetector gD_name_string = new GestureDetector(mHostActivity, gL_name_string);
+                gD_name_string.onTouchEvent(event);
                 return true; // Consume touch event
             }
         });
