@@ -1,0 +1,293 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        >
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <TextView android:id="@+id/Picker_question1"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question1"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1"
+                android:gravity="right"
+                android:touchscreenBlocksFocus="false"
+                style="@style/AppTheme" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <TextView android:id="@+id/Picker_question2"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question2"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question3"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question3"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question4"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question4"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question5"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question5"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question6"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question6"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question7"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question7"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question8"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question8"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question9"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question9"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/Picker_question10"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Picker_question10"
+                />
+
+            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+                android:id="@+id/numberPicker10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                max="100"
+                min="1" />
+        </LinearLayout>
+        <Button android:id="@+id/pickeractivity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_next"
+            android:layout_gravity="right"
+            android:onClick="startFinalActivity"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

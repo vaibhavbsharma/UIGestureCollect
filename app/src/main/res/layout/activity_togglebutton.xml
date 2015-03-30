@@ -1,0 +1,263 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <TextView android:id="@+id/ToggleButton_question1"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question1"
+                />
+
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question2"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question2"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question3"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question3"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question4"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question4"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question5"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question5"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question6"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question6"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question7"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question7"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question8"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question8"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question9"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question9"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+            <TextView android:id="@+id/ToggleButton_question10"
+                style="@style/Widget.SampleMessage"
+                android:background="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ToggleButton_question10"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButton_answer10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/toggle_turn_on"
+                android:textOff="@string/toggle_turn_off"
+                android:checked="true" />
+        </LinearLayout>
+
+        <Button android:id="@+id/togglebuttonactivity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_next"
+            android:layout_gravity="right"
+            android:onClick="startSwitchActivity"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/name_string"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/name_hint"
+        android:paddingTop="@dimen/vertical_page_margin" />
+
+    <EditText
+        android:id="@+id/number_string"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_string"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/subject_hint"
+        android:paddingTop="@dimen/vertical_page_margin"/>
+
+    <EditText
+        android:id="@+id/qwerty_string"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_string"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/qwerty_hint"
+        android:paddingTop="@dimen/vertical_page_margin"/>
+
+    <EditText
+        android:id="@+id/subject_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qwerty_string"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="@string/number_hint"
+        android:paddingTop="@dimen/vertical_page_margin"/>
+
+    <Button android:id="@+id/mainactivity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:layout_gravity="right"
+        android:onClick="startTextActivity"
+        android:layout_below="@+id/subject_number"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="33dp" />
+
+
+
+    <!-- <EditText
+        android:id="@+id/edittext4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext3"
+        android:layout_centerHorizontal="true"
+        android:drawableRight="@drawable/hex"
+        android:inputType="text" /> -->
+
+    <!-- NOTE No need to develop a system service for keyboard, there is a standard View for that (well, not completely standard, its in a funny package 'android.inputmethodservice'. -->
+    <!-- NOTE The graphical layout does not know the package ('java.lang.NoClassDefFoundError: Could not initialize class android.inputmethodservice.KeyboardView') so the keyboard is not shown. -->
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

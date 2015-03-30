@@ -1,0 +1,339 @@
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+        <EditText android:id="@+id/checkbox_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_question1"
+            android:layout_weight="0"/>
+
+        <EditText android:id="@+id/checkbox_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/checkbox_question2"
+            android:layout_weight="0"
+            android:layout_below="@id/checkbox_answer1"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/checkbox_answer3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/checkbox_answer2">
+        <TextView android:id="@+id/checkbox_question3"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question3"
+            />
+        <CheckBox android:id="@+id/checkbox_answer31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer31"
+            android:layout_weight="1"
+             />
+        <CheckBox android:id="@+id/checkbox_answer32"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer32"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/checkbox_answer4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/checkbox_answer3"
+        >
+        <TextView android:id="@+id/checkbox_question4"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question4"
+            />
+        <CheckBox android:id="@+id/checkbox_answer41"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer41"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer42"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer42"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer5"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/checkbox_answer4"
+        >
+        <TextView android:id="@+id/checkbox_question5"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question5"
+            />
+        <CheckBox android:id="@+id/checkbox_answer51"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer51"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer52"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer52"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer6"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/checkbox_answer5"
+        >
+        <TextView android:id="@+id/checkbox_question6"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question6"
+            />
+        <CheckBox android:id="@+id/checkbox_answer61"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer61"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer62"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer62"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer7"
+        android:layout_below="@id/checkbox_answer6"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView android:id="@+id/checkbox_question7"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question7"
+            />
+        <CheckBox android:id="@+id/checkbox_answer71"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer71"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer72"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer72"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer8"
+        android:layout_below="@id/checkbox_answer7"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView android:id="@+id/checkbox_question8"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question8"
+            />
+        <CheckBox android:id="@+id/checkbox_answer81"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer81"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer82"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer82"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer9"
+        android:layout_below="@id/checkbox_answer8"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView android:id="@+id/checkbox_question9"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question9"
+            />
+        <CheckBox android:id="@+id/checkbox_answer91"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer91"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer92"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer92"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer10"
+        android:layout_below="@id/checkbox_answer9"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView android:id="@+id/checkbox_question10"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question10"
+            />
+        <CheckBox android:id="@+id/checkbox_answer101"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer101"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer102"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer102"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer11"
+        android:layout_below="@id/checkbox_answer10"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView android:id="@+id/checkbox_question11"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question11"
+            />
+        <CheckBox android:id="@+id/checkbox_answer111"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer111"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer112"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer112"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/checkbox_answer12"
+        android:layout_below="@id/checkbox_answer11"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+        <TextView android:id="@+id/checkbox_question12"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_question12"
+            />
+        <CheckBox android:id="@+id/checkbox_answer121"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer121"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/checkbox_answer122"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_answer122"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+
+    <Button android:id="@+id/checkboxactivity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:onClick="startRadiobuttonActivity"
+        android:paddingTop="@dimen/vertical_page_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <!-- <fragment
+        android:name="com.example.android.common.logger.LogFragment"
+        android:id="@+id/log_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp" /> -->
+
+</RelativeLayout>

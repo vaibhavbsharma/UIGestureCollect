@@ -1,0 +1,101 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Switch android:text="@string/Switch_question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer1"/>
+
+        <Switch android:text="@string/Switch_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer2"/>
+
+        <Switch android:text="@string/Switch_question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer3"/>
+
+        <Switch android:text="@string/Switch_question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer4"/>
+
+        <Switch android:text="@string/Switch_question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer5"/>
+
+        <Switch android:text="@string/Switch_question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer6"/>
+
+        <Switch android:text="@string/Switch_question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer7"/>
+
+        <Switch android:text="@string/Switch_question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer8"/>
+
+        <Switch android:text="@string/Switch_question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer9"/>
+
+        <Switch android:text="@string/Switch_question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer10"/>
+
+        <Button android:id="@+id/switchactivity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_next"
+            android:layout_gravity="right"
+            android:onClick="startSpinnerActivity"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+</ScrollView>

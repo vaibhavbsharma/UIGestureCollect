@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     Copyright 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+    -->
+<resources>
+<string name="app_name">UIGestureCollect</string>
+
+<string name="sample_action">Subject# </string>
+<string name="button_next">Next</string>
+<string name="name_hint">Enter name(in lower case)</string>
+<string name="name_string">name</string>
+<string name="number_hint">Enter number string 1234567890</string>
+<string name="number_string">1234567890</string>
+<string name="qwerty_hint">Enter string zxcvbnm(in lowercase)</string>
+<string name="qwerty_string">qwertyuiop</string>
+<string name="subject_hint">Enter subject number(top right corner)</string>
+<string name="subject_number">Subject #</string>
+<string name="title_activity_text">TextActivity</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+    <string name="text">Sample Paragraph: Lorem ipsum dolor sit amet,
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur volutpat eros sit amet pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce sit amet dapibus sem. Nam a dapibus nisi. Pellentesque laoreet lobortis sagittis. Nam finibus elementum pulvinar. Etiam cursus, tellus sit amet varius elementum, erat lectus vestibulum ante, nec laoreet urna erat et augue.
+
+    Fusce a sem et enim convallis aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam facilisis mi a ligula vehicula, a mollis massa mollis. Cras dapibus neque vitae lacus porta dignissim. Vestibulum fringilla quis nisi ullamcorper consectetur. Nunc nunc justo, imperdiet in iaculis malesuada, rutrum sed felis. Phasellus in sodales est, vel fermentum arcu. Aliquam quis luctus sem. Aliquam viverra tristique tempus. Proin non fermentum ex, sed imperdiet turpis. Proin feugiat porta odio a tempor.
+
+    Sed dapibus sem vel rutrum euismod. Morbi leo tellus, euismod eget vehicula non, convallis id erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam imperdiet nibh sit amet arcu sollicitudin, vel sodales ipsum fringilla. Quisque a turpis eu enim tincidunt placerat. Ut eget lectus imperdiet ligula fermentum feugiat. Ut et augue dolor. Donec aliquam blandit metus non elementum. Sed ut porta erat. Aliquam quis tellus a lacus pretium elementum.</string>
+<string name="title_activity_checkbox">CheckboxActivity</string>
+<string name="checkbox_question1">CheckboxActivity: Question 1 ?</string>
+<string name="checkbox_answer">answer</string>
+<string name="checkbox_question2">CheckboxActivity: Question 2 ?</string>
+<string name="checkbox_question3">CheckboxActivity: Question 3 ?</string>
+<string name="checkbox_answer31">answer31</string>
+<string name="checkbox_answer32">answer32</string>
+<string name="checkbox_question4">CheckboxActivity: Question 4 ?</string>
+<string name="checkbox_answer41">answer41</string>
+<string name="checkbox_answer42">answer42</string>
+<string name="checkbox_question5">CheckboxActivity: Question 5 ?</string>
+<string name="checkbox_answer51">answer51</string>
+<string name="checkbox_answer52">answer52</string>
+<string name="checkbox_question6">CheckboxActivity: Question 6 ?</string>
+<string name="checkbox_answer61">answer61</string>
+<string name="checkbox_answer62">answer62</string>
+<string name="checkbox_question7">CheckboxActivity: Question 7 ?</string>
+<string name="checkbox_answer71">answer71</string>
+<string name="checkbox_answer72">answer72</string>
+<string name="checkbox_question8">CheckboxActivity: Question 8 ?</string>
+<string name="checkbox_answer81">answer81</string>
+<string name="checkbox_answer82">answer82</string>
+<string name="checkbox_question9">CheckboxActivity: Question 9 ?</string>
+<string name="checkbox_answer91">answer91</string>
+<string name="checkbox_answer92">answer92</string>
+<string name="checkbox_question10">CheckboxActivity: Question 10 ?</string>
+<string name="checkbox_answer101">answer101</string>
+<string name="checkbox_answer102">answer102</string>
+<string name="checkbox_question11">CheckboxActivity: Question 11 ?</string>
+<string name="checkbox_answer111">answer111</string>
+<string name="checkbox_answer112">answer112</string>
+<string name="checkbox_question12">CheckboxActivity: Question 12 ?</string>
+<string name="checkbox_answer121">answer121</string>
+<string name="checkbox_answer122">answer122</string>
+<string name="title_activity_radiobutton">RadiobuttonActivity</string>
+<string name="RadioButton_question1">RadiobuttonActivity: Question 1 ?</string>
+<string name="RadioButton_answer11">radiobutton_answer11</string>
+<string name="RadioButton_answer12">radiobutton_answer12</string>
+<string name="RadioButton_question2">RadiobuttonActivity: Question 2 ?</string>
+<string name="RadioButton_answer21">radiobutton_answer21</string>
+<string name="RadioButton_answer22">radiobutton_answer22</string>
+<string name="RadioButton_question3">RadiobuttonActivity: Question 3 ?</string>
+<string name="RadioButton_answer31">radiobutton_answer31</string>
+<string name="RadioButton_answer32">radiobutton_answer32</string>
+<string name="RadioButton_question4">RadiobuttonActivity: Question 4 ?</string>
+<string name="RadioButton_answer41">radiobutton_answer41</string>
+<string name="RadioButton_answer42">radiobutton_answer42</string>
+<string name="RadioButton_question5">RadiobuttonActivity: Question 5 ?</string>
+<string name="RadioButton_answer51">radiobutton_answer51</string>
+<string name="RadioButton_answer52">radiobutton_answer52</string>
+<string name="RadioButton_question6">RadiobuttonActivity: Question 6 ?</string>
+<string name="RadioButton_answer61">radiobutton_answer61</string>
+<string name="RadioButton_answer62">radiobutton_answer62</string>
+<string name="RadioButton_question7">RadiobuttonActivity: Question 7 ?</string>
+<string name="RadioButton_answer71">radiobutton_answer71</string>
+<string name="RadioButton_answer72">radiobutton_answer72</string>
+<string name="RadioButton_question8">RadiobuttonActivity: Question 8 ?</string>
+<string name="RadioButton_answer81">radiobutton_answer81</string>
+<string name="RadioButton_answer82">radiobutton_answer82</string>
+<string name="RadioButton_question9">RadiobuttonActivity: Question 9 ?</string>
+<string name="RadioButton_answer91">radiobutton_answer91</string>
+<string name="RadioButton_answer92">radiobutton_answer92</string>
+<string name="RadioButton_question10">RadiobuttonActivity: Question 10 ?</string>
+<string name="RadioButton_answer101">radiobutton_answer101</string>
+<string name="RadioButton_answer102">radiobutton_answer102</string>
+<string name="title_activity_togglebutton">TogglebuttonActivity</string>
+<string name="ToggleButton_question1">TogglebuttonActivity: Question 1 ?</string>
+<string name="ToggleButton_answer11">togglebutton_answer11</string>
+<string name="ToggleButton_answer12">togglebutton_answer12</string>
+<string name="toggle_turn_on">True</string>
+<string name="toggle_turn_off">False</string>
+<string name="ToggleButton_question2">TogglebuttonActivity: Question 2 ?</string>
+<string name="ToggleButton_question3">TogglebuttonActivity: Question 3 ?</string>
+<string name="ToggleButton_question4">TogglebuttonActivity: Question 4 ?</string>
+<string name="ToggleButton_question5">TogglebuttonActivity: Question 5 ?</string>
+<string name="ToggleButton_question6">TogglebuttonActivity: Question 6 ?</string>
+<string name="ToggleButton_question7">TogglebuttonActivity: Question 7 ?</string>
+<string name="ToggleButton_question8">TogglebuttonActivity: Question 8 ?</string>
+<string name="ToggleButton_question9">TogglebuttonActivity: Question 9 ?</string>
+<string name="ToggleButton_question10">TogglebuttonActivity: Question 10 ?</string>
+<string name="title_activity_switch">SwitchActivity</string>
+<string name="Switch_question1">SwitchActivity: Question 1 ?</string>
+<string name="switch_answer_on">switch on</string>
+<string name="switch_answer_off">switch off</string>
+<string name="Switch_question2">SwitchActivity: Question 2 ?</string>
+<string name="Switch_question3">SwitchActivity: Question 3 ?</string>
+<string name="Switch_question4">SwitchActivity: Question 4 ?</string>
+<string name="Switch_question5">SwitchActivity: Question 5 ?</string>
+<string name="Switch_question6">SwitchActivity: Question 6 ?</string>
+<string name="Switch_question7">SwitchActivity: Question 7 ?</string>
+<string name="Switch_question8">SwitchActivity: Question 8 ?</string>
+<string name="Switch_question9">SwitchActivity: Question 9 ?</string>
+<string name="Switch_question10">SwitchActivity: Question 10 ?</string>
+<string name="title_activity_spinner">SpinnerActivity</string>
+<string name="spinner1_prompt">Choose a value</string>
+<string name="Spinner_question1">SpinnerActivity: Question 1 ?</string>
+<string name="Spinner_question2">SpinnerActivity: Question 2 ?</string>
+<string name="Spinner_question3">SpinnerActivity: Question 3 ?</string>
+<string name="Spinner_question4">SpinnerActivity: Question 4 ?</string>
+<string name="Spinner_question5">SpinnerActivity: Question 5 ?</string>
+<string name="Spinner_question6">SpinnerActivity: Question 6 ?</string>
+<string name="Spinner_question7">SpinnerActivity: Question 7 ?</string>
+<string name="Spinner_question8">SpinnerActivity: Question 8 ?</string>
+<string name="Spinner_question9">SpinnerActivity: Question 9 ?</string>
+<string name="Spinner_question10">SpinnerActivity: Question 10 ?</string>
+<string name="title_activity_picker">PickerActivity</string>
+<string name="Picker_question1">PickerActivity: Question 1 ?</string>
+<string name="Picker_question2">PickerActivity: Question 2 ?</string>
+<string name="Picker_question3">PickerActivity: Question 3 ?</string>
+<string name="Picker_question4">PickerActivity: Question 4 ?</string>
+<string name="Picker_question5">PickerActivity: Question 5 ?</string>
+<string name="Picker_question6">PickerActivity: Question 6 ?</string>
+<string name="Picker_question7">PickerActivity: Question 7 ?</string>
+<string name="Picker_question8">PickerActivity: Question 8 ?</string>
+<string name="Picker_question9">PickerActivity: Question 9 ?</string>
+<string name="Picker_question10">PickerActivity: Question 10 ?</string>
+<string name="title_activity_final">FinalActivity</string>
+<string name="title_activity_thank_you">ThankYouActivity</string>
+<string name="thank_you">Thank You! :)</string>
+<string name="Spinner2_hint">Spinner2_hint</string>
+<string name="Spinner1_hint">Spinner1_hint</string>
+<string name="Spinner3_hint">Spinner3_hint</string>
+<string name="Spinner4_hint">Spinner4_hint</string>
+<string name="Spinner5_hint">Spinner5_hint</string>
+<string name="Spinner6_hint">Spinner6_hint</string>
+<string name="Spinner7_hint">Spinner7_hint</string>
+<string name="Spinner8_hint">Spinner8_hint</string>
+<string name="Spinner10_hint">Spinner10_hint</string>
+<string name="Spinner9_hint">Spinner9_hint</string>
+
+</resources>

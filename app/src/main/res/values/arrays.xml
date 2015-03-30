@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner1_array">
+        <item>Spinner1_item1</item>
+        <item>Spinner1_item2</item>
+    </string-array>
+
+    <string-array name="spinner2_array">
+        <item>Spinner2_item1</item>
+        <item>Spinner2_item2</item>
+    </string-array>
+
+    <string-array name="spinner3_array">
+        <item>Spinner3_item1</item>
+        <item>Spinner3_item2</item>
+    </string-array>
+
+    <string-array name="spinner4_array">
+        <item>Spinner4_item1</item>
+        <item>Spinner4_item2</item>
+    </string-array>
+
+    <string-array name="spinner5_array">
+        <item>Spinner5_item1</item>
+        <item>Spinner5_item2</item>
+    </string-array>
+
+    <string-array name="spinner6_array">
+        <item>Spinner6_item1</item>
+        <item>Spinner6_item2</item>
+    </string-array>
+
+    <string-array name="spinner7_array">
+        <item>Spinner7_item1</item>
+        <item>Spinner7_item2</item>
+    </string-array>
+
+    <string-array name="spinner8_array">
+        <item>Spinner8_item1</item>
+        <item>Spinner8_item2</item>
+    </string-array>
+
+    <string-array name="spinner9_array">
+        <item>Spinner9_item1</item>
+        <item>Spinner9_item2</item>
+    </string-array>
+
+    <string-array name="spinner10_array">
+        <item>Spinner10_item1</item>
+        <item>Spinner10_item2</item>
+    </string-array>
+
+
+</resources>
