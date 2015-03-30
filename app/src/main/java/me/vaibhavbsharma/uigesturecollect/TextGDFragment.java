@@ -39,6 +39,8 @@ public class TextGDFragment extends Fragment{
     private final String TEXT_ACTIVITY_SUBJECT_NUMBER="text_activity_subject_number";
     private final String TEXT_ACTIVITY_TEXT="text_activity_text";
     private final String TEXT_ACTIVITY_NEXT_BUTTON="text_activity_next_button";
+    private final String TEXT_ACTIVITY_ANSWER3="text_activity_answer3";
+    private final String TEXT_ACTIVITY_ANSWER4="text_activity_answer4";
 
 
     public TextGDFragment(){}
@@ -52,16 +54,20 @@ public class TextGDFragment extends Fragment{
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        View gV_answer3 = getActivity().findViewById(R.id.text_answer3);
+        View gV_answer4 = getActivity().findViewById(R.id.text_answer4);
+
         //View gV_text_activity = getActivity().findViewById(R.id.text_activity);
         View gV_name_string = getActivity().findViewById(R.id.text_name_string);
         View gV_subject_number = getActivity().findViewById(R.id.text_subject_number);
-        View gV_text = getActivity().findViewById(R.id.text);
+        //View gV_text = getActivity().findViewById(R.id.text);
         View gV_next_button = getActivity().findViewById(R.id.textactivity_button);
 
         //gV_text_activity.setClickable(true);
         //gV_text_activity.setFocusable(true);
 
-        gV_name_string.setClickable(true);
+        /*gV_name_string.setClickable(true);
         gV_name_string.setFocusable(true);
 
         gV_subject_number.setClickable(true);
@@ -70,8 +76,70 @@ public class TextGDFragment extends Fragment{
         gV_next_button.setClickable(true);
         gV_next_button.setFocusable(true);
 
-        gV_text.setClickable(true);
-        gV_text.setFocusable(true);
+        gV_answer3.setClickable(true);
+        gV_answer3.setFocusable(true);
+
+        gV_answer4.setClickable(true);
+        gV_answer4.setFocusable(true); */
+
+        /*gV_text.setClickable(true);
+        gV_text.setFocusable(true);*/
+
+        /*ANSWER1*/
+        /*GestureDetector.SimpleOnGestureListener gL_name_string = new GestureListener(CHECKBOX_ACTIVITY_ANSWER1);
+        final GestureDetector gD_name_string = new GestureDetector(getActivity(), gL_name_string);
+        gV_answer1.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_name_string.onTouchEvent(motionEvent);
+                return false;
+            }
+        });*/
+        ((EditText)gV_answer3).addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Log.i(TEXT_ACTIVITY_ANSWER3, "TextChangedCharSequence = "+s+"  at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.i(TEXT_ACTIVITY_ANSWER3,"beforeTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.i(TEXT_ACTIVITY_ANSWER3,"afterTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+        });
+
+        /*ANSWER2*/
+        /*GestureDetector.SimpleOnGestureListener gL_subject_number = new GestureListener(CHECKBOX_ACTIVITY_ANSWER2);
+        final GestureDetector gD_subject_number = new GestureDetector(getActivity(), gL_subject_number);
+        gV_answer2.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_subject_number.onTouchEvent(motionEvent);
+                return false;
+            }
+        });*/
+        ((EditText)gV_answer4).addTextChangedListener(new TextWatcher() {
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Log.i(TEXT_ACTIVITY_ANSWER4, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"beforeTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.i(TEXT_ACTIVITY_ANSWER4,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
+            }
+        });
+
+
 
         // BEGIN_INCLUDE(init_detector)
 
@@ -149,7 +217,7 @@ public class TextGDFragment extends Fragment{
         });
 
         /*TEXT*/
-        GestureDetector.SimpleOnGestureListener gL_text = new GestureListener(TEXT_ACTIVITY_TEXT);
+        /*GestureDetector.SimpleOnGestureListener gL_text = new GestureListener(TEXT_ACTIVITY_TEXT);
         final GestureDetector gD_text = new GestureDetector(getActivity(), gL_text);
         gV_text.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -157,7 +225,7 @@ public class TextGDFragment extends Fragment{
                 gD_text.onTouchEvent(motionEvent);
                 return false;
             }
-        });
+        });*/
 
         /*text_ACTIVITY_NEXT_BUTTON*/
         GestureDetector.SimpleOnGestureListener gL_next_button = new GestureListener(TEXT_ACTIVITY_NEXT_BUTTON);

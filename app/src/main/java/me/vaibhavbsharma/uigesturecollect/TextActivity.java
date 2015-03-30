@@ -42,6 +42,12 @@ public class TextActivity extends FragmentActivity {
         mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
         mCustomKeyboard.registerEditText(R.id.text_name_string);
         mCustomKeyboard.registerEditText(R.id.text_subject_number);
+        mCustomKeyboard.registerEditText(R.id.text_answer3);
+        mCustomKeyboard.registerEditText(R.id.text_answer4);
+        mCustomKeyboard.registerEditText(R.id.text_answer5);
+        mCustomKeyboard.registerEditText(R.id.text_answer6);
+        mCustomKeyboard.registerEditText(R.id.text_answer7);
+        mCustomKeyboard.registerEditText(R.id.text_answer8);
     }
 
 

@@ -35,8 +35,7 @@ import android.widget.EditText;
 
 public class CheckboxGDFragment extends Fragment{
     private final String CHECKBOX_ACTIVITY="checkbox_activity";
-    private final String CHECKBOX_ACTIVITY_ANSWER1="checkbox_activity_answer1";
-    private final String CHECKBOX_ACTIVITY_ANSWER2="checkbox_activity_answer2";
+
     private final String CHECKBOX_ACTIVITY_NEXT_BUTTON="checkbox_activity_next_button";
 
     private final String CHECKBOX_ACTIVITY_ANSWER31="checkbox_answer31";
@@ -81,8 +80,7 @@ public class CheckboxGDFragment extends Fragment{
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         //View gV_checkbox_activity = getActivity().findViewById(R.id.checkbox_activity);
-        View gV_answer1 = getActivity().findViewById(R.id.checkbox_answer1);
-        View gV_answer2 = getActivity().findViewById(R.id.checkbox_answer2);
+
         View gV_next_button = getActivity().findViewById(R.id.checkboxactivity_button);
 
         View gV_answer31 = getActivity().findViewById(R.id.checkbox_answer31);
@@ -240,11 +238,7 @@ public class CheckboxGDFragment extends Fragment{
         //gV_checkbox_activity.setClickable(true);
         //gV_checkbox_activity.setFocusable(true);
 
-        gV_answer1.setClickable(true);
-        gV_answer1.setFocusable(true);
 
-        gV_answer2.setClickable(true);
-        gV_answer2.setFocusable(true);
 
         gV_next_button.setClickable(true);
         gV_next_button.setFocusable(true);
@@ -306,59 +300,7 @@ public class CheckboxGDFragment extends Fragment{
             }
         });*/
 
-        /*ANSWER1*/
-        /*GestureDetector.SimpleOnGestureListener gL_name_string = new GestureListener(CHECKBOX_ACTIVITY_ANSWER1);
-        final GestureDetector gD_name_string = new GestureDetector(getActivity(), gL_name_string);
-        gV_answer1.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                gD_name_string.onTouchEvent(motionEvent);
-                return false;
-            }
-        });*/
-        ((EditText)gV_answer1).addTextChangedListener(new TextWatcher() {
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                Log.i(CHECKBOX_ACTIVITY_ANSWER1, "TextChangedCharSequence = "+s+"  at time = "+ SystemClock.uptimeMillis());
-            }
 
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                Log.i(CHECKBOX_ACTIVITY_ANSWER1,"beforeTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                Log.i(CHECKBOX_ACTIVITY_ANSWER1,"afterTextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
-            }
-        });
-
-        /*ANSWER2*/
-        /*GestureDetector.SimpleOnGestureListener gL_subject_number = new GestureListener(CHECKBOX_ACTIVITY_ANSWER2);
-        final GestureDetector gD_subject_number = new GestureDetector(getActivity(), gL_subject_number);
-        gV_answer2.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-                gD_subject_number.onTouchEvent(motionEvent);
-                return false;
-            }
-        });*/
-        ((EditText)gV_answer2).addTextChangedListener(new TextWatcher() {
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                Log.i(CHECKBOX_ACTIVITY_ANSWER2, "TextChanged CharSequence = "+s+" at time = "+ SystemClock.uptimeMillis());
-            }
-
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                Log.i(CHECKBOX_ACTIVITY_ANSWER2,"beforeTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                Log.i(CHECKBOX_ACTIVITY_ANSWER2,"afterTextChanged CharSequence = "+s+" at time = "+SystemClock.uptimeMillis());
-            }
-        });
 
         /*CHECKBOX_ACTIVITY_ANSWER31*/
         GestureDetector.SimpleOnGestureListener gL_answer31 = new GestureListener(CHECKBOX_ACTIVITY_ANSWER31);

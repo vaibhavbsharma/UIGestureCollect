@@ -39,9 +39,9 @@ public class CheckboxActivity extends FragmentActivity {
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
-        mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
-        mCustomKeyboard.registerEditText(R.id.checkbox_answer1);
-        mCustomKeyboard.registerEditText(R.id.checkbox_answer2);
+        //mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
+        //mCustomKeyboard.registerEditText(R.id.checkbox_answer1);
+        //mCustomKeyboard.registerEditText(R.id.checkbox_answer2);
     }
 
     @Override
@@ -209,9 +209,5 @@ public class CheckboxActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
-    @Override
-    public void onBackPressed() {
-        // NOTE Trap the back key: when the CustomKeyboard is still visible hide it, only when it is invisible, finish activity
-        if( mCustomKeyboard.isCustomKeyboardVisible() ) mCustomKeyboard.hideCustomKeyboard(); else this.finish();
-    }
+
 }

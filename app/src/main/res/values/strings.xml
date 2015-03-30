@@ -165,5 +165,17 @@
 <string name="Spinner8_hint">Spinner8_hint</string>
 <string name="Spinner10_hint">Spinner10_hint</string>
 <string name="Spinner9_hint">Spinner9_hint</string>
+    <string name="text_question3">text_question3 ?</string>
+    <string name="text_question4">text_question4 ?</string>
+    <string name="text_answer3_hint">text_answer3_hint</string>
+    <string name="text_answer4_hint">text_answer4_hint</string>
+    <string name="text_question5">text_quesiton5 ?</string>
+    <string name="text_answer5_hint">text_answer5_hint</string>
+    <string name="text_question6">text_question6 ?</string>
+    <string name="text_answer6_hint">text_answer6_hint</string>
+    <string name="text_question7">text_question7 ?</string>
+    <string name="text_answer7_hint">text_answer7_hint</string>
+    <string name="text_question8">text_question8 ?</string>
+    <string name="text_answer8_hint">text_answer8_hint</string>
 
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-        <EditText android:id="@+id/checkbox_answer1"
+        <!-- <EditText android:id="@+id/checkbox_answer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/checkbox_question1"
@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/checkbox_question2"
             android:layout_weight="0"
-            android:layout_below="@id/checkbox_answer1"/>
+            android:layout_below="@id/checkbox_answer1"/> -->
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
-        android:layout_below="@id/checkbox_answer2">
+        >
         <TextView android:id="@+id/checkbox_question3"
             style="@style/Widget.SampleMessage"
             android:background="@android:color/white"
@@ -324,7 +324,7 @@
         android:text="@string/button_next"
         android:onClick="startRadiobuttonActivity"
         android:paddingTop="@dimen/vertical_page_margin"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/checkbox_answer12"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
