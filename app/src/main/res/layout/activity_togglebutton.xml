@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:textOn="@string/toggle_turn_on"
                 android:textOff="@string/toggle_turn_off"
-                android:checked="false" />
+                android:checked="true" />
         </LinearLayout>
 
         <LinearLayout
@@ -178,7 +178,7 @@
                 android:layout_height="wrap_content"
                 android:textOn="@string/toggle_turn_on"
                 android:textOff="@string/toggle_turn_off"
-                android:checked="true" />
+                android:checked="false" />
         </LinearLayout>
 
         <LinearLayout
@@ -202,7 +202,7 @@
                 android:layout_height="wrap_content"
                 android:textOn="@string/toggle_turn_on"
                 android:textOff="@string/toggle_turn_off"
-                android:checked="true" />
+                android:checked="false" />
         </LinearLayout>
 
         <LinearLayout
@@ -298,7 +298,7 @@
                 android:layout_height="wrap_content"
                 android:textOn="@string/toggle_turn_on"
                 android:textOff="@string/toggle_turn_off"
-                android:checked="true" />
+                android:checked="false" />
         </LinearLayout>
 
         <LinearLayout
@@ -347,7 +347,7 @@
                 android:layout_height="wrap_content"
                 android:textOn="@string/toggle_turn_on"
                 android:textOff="@string/toggle_turn_off"
-                android:checked="false" />
+                android:checked="true" />
         </LinearLayout>
 
         <LinearLayout

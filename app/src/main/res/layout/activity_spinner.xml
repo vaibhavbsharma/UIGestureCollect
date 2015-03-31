@@ -22,7 +22,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question1"
+                android:text="@string/Spinner_question1_app1"
                 />
             <Button
                 android:id="@+id/spinner1"
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner1_hint" />
+                android:text="@string/Spinner1_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -46,7 +46,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question2"
+                android:text="@string/Spinner_question2_app1"
                 />
             <Button
                 android:id="@+id/spinner2"
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner2_hint" />
+                android:text="@string/Spinner2_hint_app1" />
 
         </LinearLayout>
 
@@ -71,7 +71,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question3"
+                android:text="@string/Spinner_question3_app1"
                 />
             <Button
                 android:id="@+id/spinner3"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner3_hint" />
+                android:text="@string/Spinner3_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -95,7 +95,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question4"
+                android:text="@string/Spinner_question4_app1"
                 />
             <Button
                 android:id="@+id/spinner4"
@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner4_hint" />
+                android:text="@string/Spinner4_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -119,7 +119,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question5"
+                android:text="@string/Spinner_question5_app1"
                 />
             <Button
                 android:id="@+id/spinner5"
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner5_hint" />
+                android:text="@string/Spinner5_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -143,7 +143,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question6"
+                android:text="@string/Spinner_question6_app1"
                 />
             <Button
                 android:id="@+id/spinner6"
@@ -151,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner6_hint" />
+                android:text="@string/Spinner6_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -167,7 +167,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question7"
+                android:text="@string/Spinner_question7_app1"
                 />
             <Button
                 android:id="@+id/spinner7"
@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner7_hint" />
+                android:text="@string/Spinner7_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -191,7 +191,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question8"
+                android:text="@string/Spinner_question8_app1"
                 />
             <Button
                 android:id="@+id/spinner8"
@@ -199,7 +199,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner8_hint" />
+                android:text="@string/Spinner8_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -215,7 +215,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question9"
+                android:text="@string/Spinner_question9_app1"
                 />
             <Button
                 android:id="@+id/spinner9"
@@ -223,7 +223,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner9_hint" />
+                android:text="@string/Spinner9_hint_app1" />
         </LinearLayout>
 
         <LinearLayout
@@ -239,7 +239,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner_question10"
+                android:text="@string/Spinner_question10_app1"
                 />
             <Button
                 android:id="@+id/spinner10"
@@ -247,7 +247,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="@string/Spinner10_hint" />
+                android:text="@string/Spinner10_hint_app1" />
         </LinearLayout>
         <Button android:id="@+id/spinneractivity_button"
             android:layout_width="wrap_content"

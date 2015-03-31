@@ -26,5 +26,6 @@ public class myNumberPicker extends NumberPicker {
         //This method reads the parameters given in the xml file and sets the properties according to it
         this.setMinValue(attrs.getAttributeIntValue(null, "min", 0));
         this.setMaxValue(attrs.getAttributeIntValue(null, "max", 0));
+        this.setValue(attrs.getAttributeIntValue(null, "value", 0));
     }
 }

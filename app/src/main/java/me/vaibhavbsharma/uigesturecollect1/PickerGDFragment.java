@@ -22,6 +22,7 @@ import android.view.GestureDetector;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.NumberPicker;
 
 
 public class PickerGDFragment extends Fragment{
@@ -46,6 +47,10 @@ public class PickerGDFragment extends Fragment{
     private final String PICKER_ACTIVITY_ANSWER9="number_picker9";
 
     private final String PICKER_ACTIVITY_ANSWER10="number_picker10";
+
+    private final String PICKER_ACTIVITY_ANSWER11="number_picker11";
+
+    private final String PICKER_ACTIVITY_ANSWER12="number_picker12";
 
 
     public PickerGDFragment(){}
@@ -78,6 +83,7 @@ public class PickerGDFragment extends Fragment{
         });
 
         View gV_answer11 = getActivity().findViewById(R.id.numberPicker1);
+        ((NumberPicker)gV_answer11).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
         gV_answer11.setClickable(true);
         gV_answer11.setFocusable(true);;
@@ -110,6 +116,7 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer21).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
 
 
@@ -129,6 +136,7 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer31).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
 
 
@@ -147,6 +155,7 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer41).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
 
         View gV_answer51 = getActivity().findViewById(R.id.numberPicker5);
@@ -164,6 +173,7 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer51).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
 
 
         View gV_answer61 = getActivity().findViewById(R.id.numberPicker6);
@@ -181,6 +191,8 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer61).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
 
 
 
@@ -199,6 +211,8 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer71).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
 
 
 
@@ -218,6 +232,8 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer81).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
 
 
         View gV_answer91 = getActivity().findViewById(R.id.numberPicker9);
@@ -235,6 +251,8 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer91).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
 
 
         View gV_answer101 = getActivity().findViewById(R.id.numberPicker10);
@@ -252,6 +270,42 @@ public class PickerGDFragment extends Fragment{
                 return false;
             }
         });
+        ((NumberPicker)gV_answer101).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
+        View gV_answer111 = getActivity().findViewById(R.id.numberPicker11);
+
+        gV_answer111.setClickable(true);
+        gV_answer111.setFocusable(true);
+
+        /*PICKER_ACTIVITY_ANSWER111*/
+        GestureDetector.SimpleOnGestureListener gL_answer111 = new GestureListener(PICKER_ACTIVITY_ANSWER11);
+        final GestureDetector gD_answer111 = new GestureDetector(getActivity(), gL_answer111);
+        gV_answer111.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer111.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+        ((NumberPicker)gV_answer111).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
+        View gV_answer121 = getActivity().findViewById(R.id.numberPicker12);
+
+        gV_answer121.setClickable(true);
+        gV_answer121.setFocusable(true);
+
+        /*PICKER_ACTIVITY_ANSWER121*/
+        GestureDetector.SimpleOnGestureListener gL_answer121 = new GestureListener(PICKER_ACTIVITY_ANSWER12);
+        final GestureDetector gD_answer121 = new GestureDetector(getActivity(), gL_answer121);
+        gV_answer121.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer121.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+        ((NumberPicker)gV_answer121).setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
+
 
 
 

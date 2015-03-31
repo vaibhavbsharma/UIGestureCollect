@@ -10,85 +10,186 @@
         android:layout_height="match_parent"
         >
 
-        <Switch android:text="@string/Switch_question1"
+        <Switch android:text="@string/Switch_question1_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer1"/>
+            android:id="@+id/switch_answer1"
+            android:checked="false"/>
 
-        <Switch android:text="@string/Switch_question2"
+        <Switch android:text="@string/Switch_question2_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer2"/>
+            android:id="@+id/switch_answer2"
+            android:checked="false"/>
 
-        <Switch android:text="@string/Switch_question3"
+        <Switch android:text="@string/Switch_question3_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer3"/>
+            android:id="@+id/switch_answer3"
+            android:checked="true"/>
 
-        <Switch android:text="@string/Switch_question4"
+        <Switch android:text="@string/Switch_question4_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer4"/>
+            android:id="@+id/switch_answer4"
+            android:checked="true"/>
 
-        <Switch android:text="@string/Switch_question5"
+        <Switch android:text="@string/Switch_question5_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer5"/>
+            android:id="@+id/switch_answer5"
+            android:checked="false"/>
 
-        <Switch android:text="@string/Switch_question6"
+        <Switch android:text="@string/Switch_question6_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer6"/>
+            android:id="@+id/switch_answer6"
+            android:checked="false"/>
 
-        <Switch android:text="@string/Switch_question7"
+        <Switch android:text="@string/Switch_question7_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer7"/>
+            android:id="@+id/switch_answer7"
+            android:checked="true"/>
 
-        <Switch android:text="@string/Switch_question8"
+        <Switch android:text="@string/Switch_question8_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer8"/>
+            android:id="@+id/switch_answer8"
+            android:checked="false"/>
 
-        <Switch android:text="@string/Switch_question9"
+        <Switch android:text="@string/Switch_question9_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer9"/>
+            android:id="@+id/switch_answer9"
+            android:checked="false"/>
 
-        <Switch android:text="@string/Switch_question10"
+        <Switch android:text="@string/Switch_question10_app1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textOn="@string/switch_answer_on"
             android:textOff="@string/switch_answer_off"
             android:layout_marginTop="40dp"
-            android:id="@+id/switch_answer10"/>
+            android:id="@+id/switch_answer10"
+            android:checked="false"/>
+
+        <Switch android:text="@string/Switch_question11_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer11"
+            android:checked="false"/>
+
+        <Switch android:text="@string/Switch_question12_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer12"
+            android:checked="false"/>
+
+        <Switch android:text="@string/Switch_question13_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer13"
+            android:checked="true"/>
+
+        <Switch android:text="@string/Switch_question14_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer14"
+            android:checked="false"/>
+
+        <Switch android:text="@string/Switch_question15_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer15"
+            android:checked="false"
+            android:textColor="#00FF00"/>
+
+        <Switch android:text="@string/Switch_question16_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer16"
+            android:checked="true"/>
+
+        <Switch android:text="@string/Switch_question17_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer17"
+            android:checked="false"/>
+
+        <Switch android:text="@string/Switch_question18_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer18"
+            android:checked="false"/>
+
+        <Switch android:text="@string/Switch_question19_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer19"
+            android:checked="true"/>
+
+        <Switch android:text="@string/Switch_question20_app1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/switch_answer_on"
+            android:textOff="@string/switch_answer_off"
+            android:layout_marginTop="40dp"
+            android:id="@+id/switch_answer20"
+            android:checked="false"/>
 
         <Button android:id="@+id/switchactivity_button"
             android:layout_width="wrap_content"

@@ -43,12 +43,15 @@
 
 <string name="checkbox_question3">CheckboxActivity: Question 3 ?</string>
     <string name="checkbox_question3_app1">1. Which of the following is true ? </string>
+    <string name="checkbox_question3_app2">1. Which of the following days start with a \'T\' ? </string>
 
 <string name="checkbox_answer31">answer31</string>
     <string name="checkbox_answer31_app1">2 &lt; 4 ?</string>
+    <string name="checkbox_answer31_app2">Tuesday</string>
 
 <string name="checkbox_answer32">answer32</string>
     <string name="checkbox_answer32_app1"> 4 &lt; 6 ?</string>
+    <string name="checkbox_answer32_app2">Thursday</string>
 
 <string name="checkbox_question4">CheckboxActivity: Question 4 ?</string>
     <string name="checkbox_question4_app1">2. Which of the following is true ?</string>
@@ -230,114 +233,214 @@
 <string name="toggle_turn_off">False</string>
 
 <string name="ToggleButton_question1">TogglebuttonActivity: Question 1 ?</string>
-    <string name="ToggleButton_question1_app1">2 &lt; 3 ?</string>
+    <string name="ToggleButton_question1_app1">1. 2 &lt; 3 ?</string>
 
 <string name="ToggleButton_question2">TogglebuttonActivity: Question 2 ?</string>
-    <string name="ToggleButton_question2_app1">Is this text red ?</string>
+    <string name="ToggleButton_question2_app1">2. Is this text red ?</string>
 
 <string name="ToggleButton_question3">TogglebuttonActivity: Question 3 ?</string>
-    <string name="ToggleButton_question3_app1">12 + 3 - 4 = 11 ?</string>
+    <string name="ToggleButton_question3_app1">3. 12 + 3 - 4 = 11 ?</string>
 
 <string name="ToggleButton_question4">TogglebuttonActivity: Question 4 ?</string>
-    <string name="ToggleButton_question4_app1"></string>
+    <string name="ToggleButton_question4_app1">4. 1 x 8 + 1 = 10 ?</string>
 
 <string name="ToggleButton_question5">TogglebuttonActivity: Question 5 ?</string>
-    <string name="ToggleButton_question5_app1">TogglebuttonActivity: Question 5 ?</string>
+    <string name="ToggleButton_question5_app1">5. 100 = One Hundred ?</string>
 
 <string name="ToggleButton_question6">TogglebuttonActivity: Question 6 ?</string>
-    <string name="ToggleButton_question6_app1">TogglebuttonActivity: Question 6 ?</string>
+    <string name="ToggleButton_question6_app1">6. Does Friday start with a \'T\' ?</string>
 
 <string name="ToggleButton_question7">TogglebuttonActivity: Question 7 ?</string>
-    <string name="ToggleButton_question7_app1">TogglebuttonActivity: Question 7 ?</string>
+    <string name="ToggleButton_question7_app1">7. 15 &lt; 14 ?</string>
 
 <string name="ToggleButton_question8">TogglebuttonActivity: Question 8 ?</string>
-    <string name="ToggleButton_question8_app1">TogglebuttonActivity: Question 8 ?</string>
+    <string name="ToggleButton_question8_app1">8. Is this text black ?</string>
 
 <string name="ToggleButton_question9">TogglebuttonActivity: Question 9 ?</string>
-    <string name="ToggleButton_question9_app1">TogglebuttonActivity: Question 9 ?</string>
+    <string name="ToggleButton_question9_app1">9. 17 + 8 - 3 = 21 ?</string>
 
 <string name="ToggleButton_question10">TogglebuttonActivity: Question 10 ?</string>
-    <string name="ToggleButton_question10_app1">TogglebuttonActivity: Question 10 ?</string>
+    <string name="ToggleButton_question10_app1">10. 2 x 3 - 2 = 3 ?</string>
 
 <string name="ToggleButton_question11">TogglebuttonActivity: Question 11 ?</string>
-    <string name="ToggleButton_question11_app1">12 + 3 - 4 = 10 ?</string>
+    <string name="ToggleButton_question11_app1">11. 1000 = One Hundred ?</string>
 
 <string name="ToggleButton_question12">TogglebuttonActivity: Question 12 ?</string>
-    <string name="ToggleButton_question12_app1">TogglebuttonActivity: Question 12 ?</string>
+    <string name="ToggleButton_question12_app1">12. Does Sunday start with a \'S\' ?</string>
 
 <string name="ToggleButton_question13">TogglebuttonActivity: Question 13 ?</string>
-    <string name="ToggleButton_question13_app1">TogglebuttonActivity: Question 13 ?</string>
+    <string name="ToggleButton_question13_app1">13. Four + Five = Nine ?</string>
 
 <string name="ToggleButton_question14">TogglebuttonActivity: Question 14 ?</string>
-    <string name="ToggleButton_question14_app1">Is this text blue ?</string>
+    <string name="ToggleButton_question14_app1">14. 3 &lt; 4 ?</string>
 
 <string name="ToggleButton_question15">TogglebuttonActivity: Question 15 ?</string>
-    <string name="ToggleButton_question15_app1">TogglebuttonActivity: Question 15 ?</string>
+    <string name="ToggleButton_question15_app1">15. 12 + 3 - 4 = 10 ?</string>
 
 <string name="ToggleButton_question16">TogglebuttonActivity: Question 16 ?</string>
-    <string name="ToggleButton_question16_app1">TogglebuttonActivity: Question 16 ?</string>
+    <string name="ToggleButton_question16_app1">16. Is this text green ?</string>
 
 <string name="ToggleButton_question17">TogglebuttonActivity: Question 17 ?</string>
-    <string name="ToggleButton_question17_app1">TogglebuttonActivity: Question 17 ?</string>
+    <string name="ToggleButton_question17_app1">17. 9 + 8 - 7 = 3 ?</string>
 
 <string name="ToggleButton_question18">TogglebuttonActivity: Question 18 ?</string>
-    <string name="ToggleButton_question18_app1">TogglebuttonActivity: Question 18 ?</string>
+    <string name="ToggleButton_question18_app1">18. 1000 = One Hundred ?</string>
 
 <string name="ToggleButton_question19">TogglebuttonActivity: Question 19 ?</string>
-    <string name="ToggleButton_question19_app1">TogglebuttonActivity: Question 19 ?</string>
+    <string name="ToggleButton_question19_app1">19. Does Thursday start with a \'T\' ?</string>
 
 <string name="ToggleButton_question20">TogglebuttonActivity: Question 20 ?</string>
-    <string name="ToggleButton_question20_app1">TogglebuttonActivity: Question 20 ?</string>
+    <string name="ToggleButton_question20_app1">20. Eight + Thirteen = 20 ?</string>
 
 <string name="title_activity_switch">SwitchActivity</string>
+<string name="switch_answer_on">yes</string>
+<string name="switch_answer_off">no</string>
 <string name="Switch_question1">SwitchActivity: Question 1 ?</string>
-<string name="switch_answer_on">switch on</string>
-<string name="switch_answer_off">switch off</string>
+    <string name="Switch_question1_app1">1. Is it past 3 PM ?</string>
+    
 <string name="Switch_question2">SwitchActivity: Question 2 ?</string>
+    <string name="Switch_question2_app1">2. Does January follow December ?</string>
+    
 <string name="Switch_question3">SwitchActivity: Question 3 ?</string>
+    <string name="Switch_question3_app1">3. Does your first name begin with an \'M\' ?</string>
+    
 <string name="Switch_question4">SwitchActivity: Question 4 ?</string>
+    <string name="Switch_question4_app1">4. Does your last name begin with an \'S\' ?</string>
+    
 <string name="Switch_question5">SwitchActivity: Question 5 ?</string>
+    <string name="Switch_question5_app1">5. Are you aware of prime numbers ?</string>
+    
 <string name="Switch_question6">SwitchActivity: Question 6 ?</string>
+    <string name="Switch_question6_app1">6. Do all computers have a keyboard ?</string>
+    
 <string name="Switch_question7">SwitchActivity: Question 7 ?</string>
+    <string name="Switch_question7_app1">7. Is 5.9 &gt; 5.8 ?</string>
+    
 <string name="Switch_question8">SwitchActivity: Question 8 ?</string>
+    <string name="Switch_question8_app1">8. Does March precede April ?</string>
+    
 <string name="Switch_question9">SwitchActivity: Question 9 ?</string>
+    <string name="Switch_question9_app1">9. Does 1 foot equal 12 inches ?</string>
+    
 <string name="Switch_question10">SwitchActivity: Question 10 ?</string>
+    <string name="Switch_question10_app1">10. Does 10*10 = 100 ?</string>
+
+<string name="Switch_question11">SwitchActivity: Question 11 ?</string>
+    <string name="Switch_question11_app1">11. Does Switch begin with an \'S\' ?</string>
+
+<string name="Switch_question12">SwitchActivity: Question 12 ?</string>
+    <string name="Switch_question12_app1">12. Does 12 AM mean noon ?</string>
+
+<string name="Switch_question13">SwitchActivity: Question 13 ?</string>
+    <string name="Switch_question13_app1">13. Is chocolate a plant ?</string>
+
+<string name="Switch_question14">SwitchActivity: Question 14 ?</string>
+    <string name="Switch_question14_app1">14. Is October preceded by September ?</string>
+
+<string name="Switch_question15">SwitchActivity: Question 15 ?</string>
+    <string name="Switch_question15_app1">15. Is this text black ?</string>
+
+<string name="Switch_question16">SwitchActivity: Question 16 ?</string>
+    <string name="Switch_question16_app1">16. Does 3/2 = 1.5 ?</string>
+
+<string name="Switch_question17">SwitchActivity: Question 17 ?</string>
+    <string name="Switch_question17_app1">17. Does the sun rise in the East ?</string>
+
+<string name="Switch_question18">SwitchActivity: Question 18 ?</string>
+    <string name="Switch_question18_app1">18. Does it usually snow in January ?</string>
+
+<string name="Switch_question19">SwitchActivity: Question 19 ?</string>
+    <string name="Switch_question19_app1">19. Does an evening start at 4 PM ?</string>
+
+<string name="Switch_question20">SwitchActivity: Question 20 ?</string>
+    <string name="Switch_question20_app1">20. Does MSU stand for Michigan State University ?</string>
+    
 <string name="title_activity_spinner">SpinnerActivity</string>
 <string name="spinner1_prompt">Choose a value</string>
 <string name="Spinner_question1">SpinnerActivity: Question 1 ?</string>
+    <string name="Spinner_question1_app1">Pick the day which starts with a \'W\' ?</string>
+
 <string name="Spinner_question2">SpinnerActivity: Question 2 ?</string>
+    <string name="Spinner_question2_app1">Pick the month which starts with a \'M\' ?</string>
+
 <string name="Spinner_question3">SpinnerActivity: Question 3 ?</string>
+    <string name="Spinner_question3_app1">Pick a leap year</string>
+
 <string name="Spinner_question4">SpinnerActivity: Question 4 ?</string>
+    <string name="Spinner_question4_app1">Pick a vowel</string>
+
 <string name="Spinner_question5">SpinnerActivity: Question 5 ?</string>
+    <string name="Spinner_question5_app1">Pick the longer word</string>
+
 <string name="Spinner_question6">SpinnerActivity: Question 6 ?</string>
+    <string name="Spinner_question6_app1">Pick the word which begins with \'y\'</string>
+
 <string name="Spinner_question7">SpinnerActivity: Question 7 ?</string>
+    <string name="Spinner_question7_app1">Pick the word with the most vowels</string>
+
 <string name="Spinner_question8">SpinnerActivity: Question 8 ?</string>
+    <string name="Spinner_question8_app1">Pick your school</string>
+
 <string name="Spinner_question9">SpinnerActivity: Question 9 ?</string>
+    <string name="Spinner_question9_app1">Pick your school color</string>
+
 <string name="Spinner_question10">SpinnerActivity: Question 10 ?</string>
+    <string name="Spinner_question10_app1">Pick a sport</string>
+
+<string name="Spinner1_hint">Spinner1_hint</string>
+    <string name="Spinner1_hint_app1">day</string>
+
+<string name="Spinner2_hint">Spinner2_hint</string>
+    <string name="Spinner2_hint_app1">month</string>
+
+<string name="Spinner3_hint">Spinner3_hint</string>
+    <string name="Spinner3_hint_app1">year</string>
+
+<string name="Spinner4_hint">Spinner4_hint</string>
+    <string name="Spinner4_hint_app1">letter</string>
+
+<string name="Spinner5_hint">Spinner5_hint</string>
+    <string name="Spinner5_hint_app1">word</string>
+
+<string name="Spinner6_hint">Spinner6_hint</string>
+    <string name="Spinner6_hint_app1">word</string>
+
+<string name="Spinner7_hint">Spinner7_hint</string>
+    <string name="Spinner7_hint_app1">word</string>
+
+<string name="Spinner8_hint">Spinner8_hint</string>
+    <string name="Spinner8_hint_app1">school</string>
+
+<string name="Spinner9_hint">Spinner9_hint</string>
+    <string name="Spinner9_hint_app1">color</string>
+
+<string name="Spinner10_hint">Spinner10_hint</string>
+    <string name="Spinner10_hint_app1">sport</string>
+
+
 <string name="title_activity_picker">PickerActivity</string>
 <string name="Picker_question1">PickerActivity: Question 1 ?</string>
+    <string name="Picker_question1_app1">Select the 1st day of this year(Jan 1, 2015)</string>
+
 <string name="Picker_question2">PickerActivity: Question 2 ?</string>
 <string name="Picker_question3">PickerActivity: Question 3 ?</string>
 <string name="Picker_question4">PickerActivity: Question 4 ?</string>
+    <string name="Picker_question4_app1">Select the last day of this year(Dec 31, 2015)</string>
+
 <string name="Picker_question5">PickerActivity: Question 5 ?</string>
 <string name="Picker_question6">PickerActivity: Question 6 ?</string>
 <string name="Picker_question7">PickerActivity: Question 7 ?</string>
+    <string name="Picker_question7_app1">Select April Fools this year(April 1, 2015)</string>
+
 <string name="Picker_question8">PickerActivity: Question 8 ?</string>
 <string name="Picker_question9">PickerActivity: Question 9 ?</string>
 <string name="Picker_question10">PickerActivity: Question 10 ?</string>
+    <string name="Picker_question10_app1">Select the date July 31, 2015</string>
+
 <string name="title_activity_final">FinalActivity</string>
 <string name="title_activity_thank_you">ThankYouActivity</string>
 <string name="thank_you">Thank You! :)</string>
-<string name="Spinner2_hint">Spinner2_hint</string>
-<string name="Spinner1_hint">Spinner1_hint</string>
-<string name="Spinner3_hint">Spinner3_hint</string>
-<string name="Spinner4_hint">Spinner4_hint</string>
-<string name="Spinner5_hint">Spinner5_hint</string>
-<string name="Spinner6_hint">Spinner6_hint</string>
-<string name="Spinner7_hint">Spinner7_hint</string>
-<string name="Spinner8_hint">Spinner8_hint</string>
-<string name="Spinner10_hint">Spinner10_hint</string>
-<string name="Spinner9_hint">Spinner9_hint</string>
+
 
     <string name="text_question3">text_question3 ?</string>
     <string name="text_question3_app1">Which day comes after Sunday ?</string>

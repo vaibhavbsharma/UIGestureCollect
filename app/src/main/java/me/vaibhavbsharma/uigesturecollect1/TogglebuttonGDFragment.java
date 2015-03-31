@@ -50,6 +50,26 @@ public class TogglebuttonGDFragment extends Fragment{
 
     private final String TOGGLEBUTTON_ACTIVITY_ANSWER10="togglebutton_answer10";
 
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER11="togglebutton_answer11";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER12="togglebutton_answer12";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER13="togglebutton_answer13";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER14="togglebutton_answer14";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER15="togglebutton_answer15";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER16="togglebutton_answer16";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER17="togglebutton_answer17";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER18="togglebutton_answer18";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER19="togglebutton_answer19";
+
+    private final String TOGGLEBUTTON_ACTIVITY_ANSWER20="togglebutton_answer20";
+
 
     public TogglebuttonGDFragment(){}
 
@@ -259,6 +279,168 @@ public class TogglebuttonGDFragment extends Fragment{
                 return false;
             }
         });
+
+        View gV_answer111 = getActivity().findViewById(R.id.ToggleButton_answer11);
+
+        gV_answer111.setClickable(true);
+        gV_answer111.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER111*/
+        GestureDetector.SimpleOnGestureListener gL_answer111 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER11);
+        final GestureDetector gD_answer111 = new GestureDetector(getActivity(), gL_answer111);
+        gV_answer111.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer111.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer121 = getActivity().findViewById(R.id.ToggleButton_answer12);
+
+        gV_answer121.setClickable(true);
+        gV_answer121.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER121*/
+        GestureDetector.SimpleOnGestureListener gL_answer121 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER12);
+        final GestureDetector gD_answer121 = new GestureDetector(getActivity(), gL_answer121);
+        gV_answer121.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer121.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer131 = getActivity().findViewById(R.id.ToggleButton_answer13);
+
+        gV_answer131.setClickable(true);
+        gV_answer131.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER131*/
+        GestureDetector.SimpleOnGestureListener gL_answer131 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER13);
+        final GestureDetector gD_answer131 = new GestureDetector(getActivity(), gL_answer131);
+        gV_answer131.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer131.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer141 = getActivity().findViewById(R.id.ToggleButton_answer14);
+
+        gV_answer141.setClickable(true);
+        gV_answer141.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER141*/
+        GestureDetector.SimpleOnGestureListener gL_answer141 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER14);
+        final GestureDetector gD_answer141 = new GestureDetector(getActivity(), gL_answer141);
+        gV_answer141.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer141.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer151 = getActivity().findViewById(R.id.ToggleButton_answer15);
+
+        gV_answer151.setClickable(true);
+        gV_answer151.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER151*/
+        GestureDetector.SimpleOnGestureListener gL_answer151 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER15);
+        final GestureDetector gD_answer151 = new GestureDetector(getActivity(), gL_answer151);
+        gV_answer151.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer151.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer161 = getActivity().findViewById(R.id.ToggleButton_answer16);
+
+        gV_answer161.setClickable(true);
+        gV_answer161.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER161*/
+        GestureDetector.SimpleOnGestureListener gL_answer161 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER16);
+        final GestureDetector gD_answer161 = new GestureDetector(getActivity(), gL_answer161);
+        gV_answer161.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer161.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer171 = getActivity().findViewById(R.id.ToggleButton_answer17);
+
+        gV_answer171.setClickable(true);
+        gV_answer171.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER171*/
+        GestureDetector.SimpleOnGestureListener gL_answer171 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER17);
+        final GestureDetector gD_answer171 = new GestureDetector(getActivity(), gL_answer171);
+        gV_answer171.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer171.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer181 = getActivity().findViewById(R.id.ToggleButton_answer18);
+
+        gV_answer181.setClickable(true);
+        gV_answer181.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER181*/
+        GestureDetector.SimpleOnGestureListener gL_answer181 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER18);
+        final GestureDetector gD_answer181 = new GestureDetector(getActivity(), gL_answer181);
+        gV_answer181.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer181.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer191 = getActivity().findViewById(R.id.ToggleButton_answer19);
+
+        gV_answer191.setClickable(true);
+        gV_answer191.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER191*/
+        GestureDetector.SimpleOnGestureListener gL_answer191 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER19);
+        final GestureDetector gD_answer191 = new GestureDetector(getActivity(), gL_answer191);
+        gV_answer191.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer191.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+        View gV_answer201 = getActivity().findViewById(R.id.ToggleButton_answer20);
+
+        gV_answer201.setClickable(true);
+        gV_answer201.setFocusable(true);
+
+        /*TOGGLEBUTTON_ACTIVITY_ANSWER201*/
+        GestureDetector.SimpleOnGestureListener gL_answer201 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER20);
+        final GestureDetector gD_answer201 = new GestureDetector(getActivity(), gL_answer201);
+        gV_answer201.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                gD_answer201.onTouchEvent(motionEvent);
+                return false;
+            }
+        });
+
+
 
 
 

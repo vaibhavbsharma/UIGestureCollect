@@ -10,6 +10,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="0dp"
         >
+        <!-- Jan 1, 2015 -->
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
@@ -22,7 +23,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Picker_question1"
+                android:text="@string/Picker_question1_app1"
                 />
 
             <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
@@ -31,14 +32,34 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:orientation="vertical"
-                max="100"
+                max="12"
                 min="1"
+                value="6"
                 android:gravity="right"
                 android:touchscreenBlocksFocus="false"
-                style="@style/AppTheme" />
+
+                 />
+
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="31"
+                min="1"
+                value="15"/>
+
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="2050"
+                min="1980"
+                value="1980"/>
         </LinearLayout>
 
-        <LinearLayout
+        <!-- <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -54,14 +75,6 @@
                 android:text="@string/Picker_question2"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
-                android:id="@+id/numberPicker2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:orientation="vertical"
-                max="100"
-                min="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,16 +94,9 @@
                 android:text="@string/Picker_question3"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
-                android:id="@+id/numberPicker3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:orientation="vertical"
-                max="100"
-                min="1" />
-        </LinearLayout>
+        </LinearLayout> -->
 
+        <!-- Dec 31, 2015 -->
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
@@ -105,7 +111,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Picker_question4"
+                android:text="@string/Picker_question4_app1"
                 />
 
             <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
@@ -114,11 +120,30 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:orientation="vertical"
-                max="100"
-                min="1" />
+                max="12"
+                min="1"
+                value="7"/>
+
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="31"
+                min="1"
+                value="15"/>
+
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="2050"
+                min="1980"
+                value="1980" />
         </LinearLayout>
 
-        <LinearLayout
+        <!-- <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -135,14 +160,6 @@
                 android:text="@string/Picker_question5"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
-                android:id="@+id/numberPicker5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:orientation="vertical"
-                max="100"
-                min="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -162,16 +179,9 @@
                 android:text="@string/Picker_question6"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
-                android:id="@+id/numberPicker6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:orientation="vertical"
-                max="100"
-                min="1" />
-        </LinearLayout>
+        </LinearLayout> -->
 
+        <!-- April 1, 2015 -->
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
@@ -186,7 +196,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Picker_question7"
+                android:text="@string/Picker_question7_app1"
                 />
 
             <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
@@ -195,11 +205,30 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:orientation="vertical"
-                max="100"
-                min="1" />
+                max="12"
+                min="1"
+                value="10" />
+
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="31"
+                min="1"
+                value="15" />
+
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="2050"
+                min="1980"
+                value="1980"  />
         </LinearLayout>
 
-        <LinearLayout
+        <!-- <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -216,14 +245,6 @@
                 android:text="@string/Picker_question8"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
-                android:id="@+id/numberPicker8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:orientation="vertical"
-                max="100"
-                min="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -243,16 +264,9 @@
                 android:text="@string/Picker_question9"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
-                android:id="@+id/numberPicker9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:orientation="vertical"
-                max="100"
-                min="1" />
-        </LinearLayout>
+        </LinearLayout>-->
 
+        <!-- July 31, 2015 -->
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="horizontal"
@@ -267,7 +281,7 @@
                 android:background="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Picker_question10"
+                android:text="@string/Picker_question10_app1"
                 />
 
             <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
@@ -276,8 +290,26 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:orientation="vertical"
-                max="100"
-                min="1" />
+                max="12"
+                min="1"
+                value="1"/>
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="31"
+                min="1"
+                value="15" />
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
+                android:id="@+id/numberPicker12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                max="2050"
+                min="1980"
+                value="1980"  />
+
         </LinearLayout>
         <Button android:id="@+id/pickeractivity_button"
             android:layout_width="wrap_content"
