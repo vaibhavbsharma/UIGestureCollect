@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
 /**
  * Copyright 2013 Maarten Pennings

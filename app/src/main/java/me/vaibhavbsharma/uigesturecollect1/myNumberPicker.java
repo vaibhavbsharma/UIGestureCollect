@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
 import android.annotation.TargetApi;
 import android.content.Context;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.vaibhavbsharma.uigesturecollect" >
+    package="me.vaibhavbsharma.uigesturecollect1" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.MainActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.MainActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateAlwaysHidden" >
             <intent-filter>
@@ -17,46 +17,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.TextActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.TextActivity"
             android:label="@string/title_activity_text"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.CheckboxActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.CheckboxActivity"
             android:label="@string/title_activity_checkbox"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.RadiobuttonActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.RadiobuttonActivity"
             android:label="@string/title_activity_radiobutton"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.TogglebuttonActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.TogglebuttonActivity"
             android:label="@string/title_activity_togglebutton"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.SwitchActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.SwitchActivity"
             android:label="@string/title_activity_switch"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.SpinnerActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.SpinnerActivity"
             android:label="@string/title_activity_spinner"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.PickerActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.PickerActivity"
             android:label="@string/title_activity_picker"
             android:windowSoftInputMode="stateAlwaysHidden" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.FinalActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.FinalActivity"
             android:label="@string/title_activity_final" >
         </activity>
         <activity
-            android:name="me.vaibhavbsharma.uigesturecollect.ThankYouActivity"
+            android:name="me.vaibhavbsharma.uigesturecollect1.ThankYouActivity"
             android:label="@string/title_activity_thank_you" >
         </activity>
     </application>

@@ -56,13 +56,12 @@
         android:background="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_question3"
+        android:text="@string/text_question3_app1"
         />
     <EditText android:id="@+id/text_answer3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:hint="@string/text_answer3_hint"
         android:inputType="text"/>
     </LinearLayout>
 
@@ -80,13 +79,12 @@
         android:background="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_question4"
+        android:text="@string/text_question4_app1"
         />
     <EditText android:id="@+id/text_answer4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:hint="@string/text_answer4_hint"
         android:inputType="text"
         />
     </LinearLayout>
@@ -104,13 +102,12 @@
             android:background="@android:color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_question5"
+            android:text="@string/text_question5_app1"
             />
         <EditText android:id="@+id/text_answer5"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:hint="@string/text_answer5_hint"
             android:inputType="text"
             />
     </LinearLayout>
@@ -128,13 +125,12 @@
             android:background="@android:color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_question6"
+            android:text="@string/text_question6_app1"
             />
         <EditText android:id="@+id/text_answer6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:hint="@string/text_answer6_hint"
             android:inputType="text"
             />
     </LinearLayout>
@@ -152,13 +148,12 @@
             android:background="@android:color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_question7"
+            android:text="@string/text_question7_app1"
             />
         <EditText android:id="@+id/text_answer7"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:hint="@string/text_answer7_hint"
             android:inputType="text"
             />
     </LinearLayout>
@@ -176,13 +171,104 @@
             android:background="@android:color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_question8"
+            android:text="@string/text_question8_app1"
             />
         <EditText android:id="@+id/text_answer8"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:hint="@string/text_answer8_hint"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_question9_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/text_question8_layout">
+        <TextView android:id="@+id/text_question9"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_question9_app1"
+            />
+        <EditText android:id="@+id/text_answer9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_question10_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/text_question9_layout">
+        <TextView android:id="@+id/text_question10"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_question10_app1"
+            />
+        <EditText android:id="@+id/text_answer10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_question11_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/text_question10_layout">
+        <TextView android:id="@+id/text_question11"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_question11_app1"
+            />
+        <EditText android:id="@+id/text_answer11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:inputType="text"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_question12_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/text_question11_layout">
+        <TextView android:id="@+id/text_question12"
+            style="@style/Widget.SampleMessage"
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_question12_app1"
+            />
+        <EditText android:id="@+id/text_answer12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
             android:inputType="text"
             />
     </LinearLayout>
@@ -194,9 +280,7 @@
         android:text="@string/button_next"
         android:layout_gravity="right"
         android:onClick="startCheckboxActivity"
-        android:layout_marginRight="26dp"
-        android:layout_marginEnd="26dp"
-        android:layout_below="@+id/text_question8_layout"
+        android:layout_below="@+id/text_question12_layout"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

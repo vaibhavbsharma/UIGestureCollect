@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
 /*
 * Copyright (C) 2013 The Android Open Source Project
@@ -87,7 +87,7 @@ public class TogglebuttonGDFragment extends Fragment{
         View gV_answer11 = getActivity().findViewById(R.id.ToggleButton_answer1);
 
         gV_answer11.setClickable(true);
-        gV_answer11.setFocusable(true);;
+        gV_answer11.setFocusable(true);
 
         /*TOGGLEBUTTON_ACTIVITY_ANSWER11*/
         GestureDetector.SimpleOnGestureListener gL_answer11 = new GestureListener(TOGGLEBUTTON_ACTIVITY_ANSWER1);

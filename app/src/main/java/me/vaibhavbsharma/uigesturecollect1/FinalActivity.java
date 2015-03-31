@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,30 +12,33 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
 
-public class RadiobuttonActivity extends FragmentActivity {
-    public static final String TAG = "RadiobuttonActivity";
+public class FinalActivity extends FragmentActivity {
+    public static final String TAG = "FinalActivity";
     private VelocityTracker mVelocityTracker = null;
-    public static final String FRAGTAG = "RadiobuttonGDFragment";
-
+    public static final String FRAGTAG = "FinalGDFragment";
+    CustomKeyboard mCustomKeyboard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_radiobutton);
-
+        setContentView(R.layout.activity_final);
         if (getSupportFragmentManager().findFragmentByTag(FRAGTAG) == null ) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            RadiobuttonGDFragment fragment = new RadiobuttonGDFragment();
+            FinalGDFragment fragment = new FinalGDFragment();
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
+        mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
+        mCustomKeyboard.registerEditText(R.id.name_string_final);
+        mCustomKeyboard.registerEditText(R.id.number_string_final);
+        mCustomKeyboard.registerEditText(R.id.subject_number_final);
+        mCustomKeyboard.registerEditText(R.id.qwerty_string_final);
     }
 
     @Override
@@ -59,7 +62,7 @@ public class RadiobuttonActivity extends FragmentActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_radiobutton, menu);
+        getMenuInflater().inflate(R.menu.menu_final, menu);
         MenuItem subjectNumber = menu.findItem(R.id.subject_number);
         String filename = "SubjectNumber.txt";
         int subjNumber=-1;
@@ -99,10 +102,11 @@ public class RadiobuttonActivity extends FragmentActivity {
         return super.onOptionsItemSelected(item);*/
         return true;
     }
+
     /* Called when the user clicks the Next button */
-    public void startTogglebuttonActivity(View view) {
-        Log.i(TAG, "startTogglebuttonActivity called");
-        Intent intent = new Intent(this, TogglebuttonActivity.class);
+    public void startThankYouActivity(View view) {
+        Log.i(TAG, "startThankYouActivity called");
+        Intent intent = new Intent(this, ThankYouActivity.class);
         startActivity(intent);
     }
 
@@ -204,4 +208,5 @@ public class RadiobuttonActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
+
 }

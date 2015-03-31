@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,27 +18,24 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class FinalActivity extends FragmentActivity {
-    public static final String TAG = "FinalActivity";
+public class PickerActivity extends FragmentActivity {
+    public static final String TAG = "PickerActivity";
     private VelocityTracker mVelocityTracker = null;
-    public static final String FRAGTAG = "FinalGDFragment";
-    CustomKeyboard mCustomKeyboard;
+    public static final String FRAGTAG = "PickerGDFragment";
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_final);
+        setContentView(R.layout.activity_picker);
+
         if (getSupportFragmentManager().findFragmentByTag(FRAGTAG) == null ) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            FinalGDFragment fragment = new FinalGDFragment();
+            PickerGDFragment fragment = new PickerGDFragment();
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
-        mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
-        mCustomKeyboard.registerEditText(R.id.name_string_final);
-        mCustomKeyboard.registerEditText(R.id.number_string_final);
-        mCustomKeyboard.registerEditText(R.id.subject_number_final);
-        mCustomKeyboard.registerEditText(R.id.qwerty_string_final);
     }
 
     @Override
@@ -62,7 +59,7 @@ public class FinalActivity extends FragmentActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_final, menu);
+        getMenuInflater().inflate(R.menu.menu_picker, menu);
         MenuItem subjectNumber = menu.findItem(R.id.subject_number);
         String filename = "SubjectNumber.txt";
         int subjNumber=-1;
@@ -104,9 +101,9 @@ public class FinalActivity extends FragmentActivity {
     }
 
     /* Called when the user clicks the Next button */
-    public void startThankYouActivity(View view) {
-        Log.i(TAG, "startThankYouActivity called");
-        Intent intent = new Intent(this, ThankYouActivity.class);
+    public void startFinalActivity(View view) {
+        Log.i(TAG, "startFinalActivity called");
+        Intent intent = new Intent(this, FinalActivity.class);
         startActivity(intent);
     }
 
@@ -208,5 +205,6 @@ public class FinalActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
+
 
 }

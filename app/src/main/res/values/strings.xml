@@ -15,7 +15,7 @@
      limitations under the License.
     -->
 <resources>
-<string name="app_name">UIGestureCollect</string>
+<string name="app_name">UIGestureCollect-1</string>
 
 <string name="sample_action">Subject# </string>
 <string name="button_next">Next</string>
@@ -40,82 +40,255 @@
 <string name="checkbox_question1">CheckboxActivity: Question 1 ?</string>
 <string name="checkbox_answer">answer</string>
 <string name="checkbox_question2">CheckboxActivity: Question 2 ?</string>
+
 <string name="checkbox_question3">CheckboxActivity: Question 3 ?</string>
+    <string name="checkbox_question3_app1">1. Which of the following is true ? </string>
+
 <string name="checkbox_answer31">answer31</string>
+    <string name="checkbox_answer31_app1">2 &lt; 4 ?</string>
+
 <string name="checkbox_answer32">answer32</string>
+    <string name="checkbox_answer32_app1"> 4 &lt; 6 ?</string>
+
 <string name="checkbox_question4">CheckboxActivity: Question 4 ?</string>
+    <string name="checkbox_question4_app1">2. Which of the following is true ?</string>
+
 <string name="checkbox_answer41">answer41</string>
+    <string name="checkbox_answer41_app1">2 &gt; 6 ?</string>
+
 <string name="checkbox_answer42">answer42</string>
+    <string name="checkbox_answer42_app1">4 &lt; 6</string>
+
 <string name="checkbox_question5">CheckboxActivity: Question 5 ?</string>
+    <string name="checkbox_question5_app1">3. Which of the following is true ?</string>
+
 <string name="checkbox_answer51">answer51</string>
+    <string name="checkbox_answer51_app1">10 &lt; 9</string>
+
 <string name="checkbox_answer52">answer52</string>
+    <string name="checkbox_answer52_app1">9 &lt; 10</string>
+
 <string name="checkbox_question6">CheckboxActivity: Question 6 ?</string>
+    <string name="checkbox_question6_app1">4. Which of the following is true ?</string>
+
 <string name="checkbox_answer61">answer61</string>
+    <string name="checkbox_answer61_app1">9 &lt; 11</string>
+
 <string name="checkbox_answer62">answer62</string>
+    <string name="checkbox_answer62_app1">11 &lt; 9</string>
+
 <string name="checkbox_question7">CheckboxActivity: Question 7 ?</string>
+    <string name="checkbox_question7_app1">5. Which of the following is true ?</string>
+
 <string name="checkbox_answer71">answer71</string>
+    <string name="checkbox_answer71_app1">11 &lt; 10</string>
+
 <string name="checkbox_answer72">answer72</string>
+    <string name="checkbox_answer72_app1">9 &lt; 11</string>
+
 <string name="checkbox_question8">CheckboxActivity: Question 8 ?</string>
+    <string name="checkbox_question8_app1">6. Which of the following is true ?</string>
+
 <string name="checkbox_answer81">answer81</string>
+    <string name="checkbox_answer81_app1">9 &lt; 10</string>
+
 <string name="checkbox_answer82">answer82</string>
+    <string name="checkbox_answer82_app1">10 &lt; 11</string>
+
 <string name="checkbox_question9">CheckboxActivity: Question 9 ?</string>
+    <string name="checkbox_question9_app1">7. Which of the following is true ?</string>
+
 <string name="checkbox_answer91">answer91</string>
+    <string name="checkbox_answer91_app1">2 &lt; 9 </string>
+
 <string name="checkbox_answer92">answer92</string>
+    <string name="checkbox_answer92_app1">9 &lt; 7</string>
+
 <string name="checkbox_question10">CheckboxActivity: Question 10 ?</string>
+    <string name="checkbox_question10_app1">8. Which of the following is true ?</string>
+
 <string name="checkbox_answer101">answer101</string>
+    <string name="checkbox_answer101_app1">5 &lt; 7</string>
+
 <string name="checkbox_answer102">answer102</string>
+    <string name="checkbox_answer102_app1">3 &lt; 7</string>
+
 <string name="checkbox_question11">CheckboxActivity: Question 11 ?</string>
+    <string name="checkbox_question11_app1">9. Which of the following is true ?</string>
+
 <string name="checkbox_answer111">answer111</string>
+    <string name="checkbox_answer111_app1">4 &lt; 6</string>
+
 <string name="checkbox_answer112">answer112</string>
+    <string name="checkbox_answer112_app1">6 &lt; 4</string>
+
 <string name="checkbox_question12">CheckboxActivity: Question 12 ?</string>
+    <string name="checkbox_question12_app1">10. Which of the following is true ?</string>
+
 <string name="checkbox_answer121">answer121</string>
+    <string name="checkbox_answer121_app1">10 &lt; 11</string>
+
 <string name="checkbox_answer122">answer122</string>
+    <string name="checkbox_answer122_app1">9 &lt; 10</string>
+
 <string name="title_activity_radiobutton">RadiobuttonActivity</string>
 <string name="RadioButton_question1">RadiobuttonActivity: Question 1 ?</string>
+    <string name="RadioButton_question1_app1">1. Which of these is colored blue ?</string>
+
 <string name="RadioButton_answer11">radiobutton_answer11</string>
+    <string name="RadioButton_answer11_app1">red</string>
+
 <string name="RadioButton_answer12">radiobutton_answer12</string>
+    <string name="RadioButton_answer12_app1">blue</string>
+
 <string name="RadioButton_question2">RadiobuttonActivity: Question 2 ?</string>
+    <string name="RadioButton_question2_app1">2. Is 2 even or odd ?</string>
+
 <string name="RadioButton_answer21">radiobutton_answer21</string>
+    <string name="RadioButton_answer21_app1">even</string>
+
 <string name="RadioButton_answer22">radiobutton_answer22</string>
+    <string name="RadioButton_answer22_app1">odd</string>
+
 <string name="RadioButton_question3">RadiobuttonActivity: Question 3 ?</string>
+    <string name="RadioButton_question3_app1">3. Which of these is colored green ?</string>
+
 <string name="RadioButton_answer31">radiobutton_answer31</string>
+    <string name="RadioButton_answer31_app1">red</string>
+
 <string name="RadioButton_answer32">radiobutton_answer32</string>
+    <string name="RadioButton_answer32_app1">red</string>
+
 <string name="RadioButton_question4">RadiobuttonActivity: Question 4 ?</string>
+    <string name="RadioButton_question4_app1">4. Is 4 divisible by 2 ?</string>
+
 <string name="RadioButton_answer41">radiobutton_answer41</string>
+    <string name="RadioButton_answer41_app1">yes</string>
+
 <string name="RadioButton_answer42">radiobutton_answer42</string>
+    <string name="RadioButton_answer42_app1">no</string>
+
 <string name="RadioButton_question5">RadiobuttonActivity: Question 5 ?</string>
+    <string name="RadioButton_question5_app1">5. Which of these is colored blue ?</string>
+
 <string name="RadioButton_answer51">radiobutton_answer51</string>
+    <string name="RadioButton_answer51_app1">blue</string>
+
 <string name="RadioButton_answer52">radiobutton_answer52</string>
+    <string name="RadioButton_answer52_app1">blue</string>
+
 <string name="RadioButton_question6">RadiobuttonActivity: Question 6 ?</string>
+    <string name="RadioButton_question6_app1">6. Which of these is colored yellow ?</string>
+
 <string name="RadioButton_answer61">radiobutton_answer61</string>
+    <string name="RadioButton_answer61_app1">blue</string>
+
 <string name="RadioButton_answer62">radiobutton_answer62</string>
+    <string name="RadioButton_answer62_app1">yellow</string>
+
 <string name="RadioButton_question7">RadiobuttonActivity: Question 7 ?</string>
+    <string name="RadioButton_question7_app1">7. Which of these is colored blue ?</string>
+
 <string name="RadioButton_answer71">radiobutton_answer71</string>
+    <string name="RadioButton_answer71_app1">red</string>
+
 <string name="RadioButton_answer72">radiobutton_answer72</string>
+    <string name="RadioButton_answer72_app1">blue</string>
+
 <string name="RadioButton_question8">RadiobuttonActivity: Question 8 ?</string>
+    <string name="RadioButton_question8_app1">8. 4 + 1 =  ?</string>
+
 <string name="RadioButton_answer81">radiobutton_answer81</string>
+    <string name="RadioButton_answer81_app1">8</string>
+
 <string name="RadioButton_answer82">radiobutton_answer82</string>
+    <string name="RadioButton_answer82_app1">5</string>
+
 <string name="RadioButton_question9">RadiobuttonActivity: Question 9 ?</string>
+    <string name="RadioButton_question9_app1">9. Which of these is colored pink ?</string>
+
 <string name="RadioButton_answer91">radiobutton_answer91</string>
+    <string name="RadioButton_answer91_app1">orange</string>
+
 <string name="RadioButton_answer92">radiobutton_answer92</string>
+    <string name="RadioButton_answer92_app1">yellow</string>
+
 <string name="RadioButton_question10">RadiobuttonActivity: Question 10 ?</string>
+    <string name="RadioButton_question10_app1">10. Is 3 odd or even ?</string>
+
 <string name="RadioButton_answer101">radiobutton_answer101</string>
+    <string name="RadioButton_answer101_app1">even</string>
+
 <string name="RadioButton_answer102">radiobutton_answer102</string>
+    <string name="RadioButton_answer102_app1">odd</string>
+
 <string name="title_activity_togglebutton">TogglebuttonActivity</string>
-<string name="ToggleButton_question1">TogglebuttonActivity: Question 1 ?</string>
+
 <string name="ToggleButton_answer11">togglebutton_answer11</string>
 <string name="ToggleButton_answer12">togglebutton_answer12</string>
 <string name="toggle_turn_on">True</string>
 <string name="toggle_turn_off">False</string>
+
+<string name="ToggleButton_question1">TogglebuttonActivity: Question 1 ?</string>
+    <string name="ToggleButton_question1_app1">2 &lt; 3 ?</string>
+
 <string name="ToggleButton_question2">TogglebuttonActivity: Question 2 ?</string>
+    <string name="ToggleButton_question2_app1">Is this text red ?</string>
+
 <string name="ToggleButton_question3">TogglebuttonActivity: Question 3 ?</string>
+    <string name="ToggleButton_question3_app1">12 + 3 - 4 = 11 ?</string>
+
 <string name="ToggleButton_question4">TogglebuttonActivity: Question 4 ?</string>
+    <string name="ToggleButton_question4_app1"></string>
+
 <string name="ToggleButton_question5">TogglebuttonActivity: Question 5 ?</string>
+    <string name="ToggleButton_question5_app1">TogglebuttonActivity: Question 5 ?</string>
+
 <string name="ToggleButton_question6">TogglebuttonActivity: Question 6 ?</string>
+    <string name="ToggleButton_question6_app1">TogglebuttonActivity: Question 6 ?</string>
+
 <string name="ToggleButton_question7">TogglebuttonActivity: Question 7 ?</string>
+    <string name="ToggleButton_question7_app1">TogglebuttonActivity: Question 7 ?</string>
+
 <string name="ToggleButton_question8">TogglebuttonActivity: Question 8 ?</string>
+    <string name="ToggleButton_question8_app1">TogglebuttonActivity: Question 8 ?</string>
+
 <string name="ToggleButton_question9">TogglebuttonActivity: Question 9 ?</string>
+    <string name="ToggleButton_question9_app1">TogglebuttonActivity: Question 9 ?</string>
+
 <string name="ToggleButton_question10">TogglebuttonActivity: Question 10 ?</string>
+    <string name="ToggleButton_question10_app1">TogglebuttonActivity: Question 10 ?</string>
+
+<string name="ToggleButton_question11">TogglebuttonActivity: Question 11 ?</string>
+    <string name="ToggleButton_question11_app1">12 + 3 - 4 = 10 ?</string>
+
+<string name="ToggleButton_question12">TogglebuttonActivity: Question 12 ?</string>
+    <string name="ToggleButton_question12_app1">TogglebuttonActivity: Question 12 ?</string>
+
+<string name="ToggleButton_question13">TogglebuttonActivity: Question 13 ?</string>
+    <string name="ToggleButton_question13_app1">TogglebuttonActivity: Question 13 ?</string>
+
+<string name="ToggleButton_question14">TogglebuttonActivity: Question 14 ?</string>
+    <string name="ToggleButton_question14_app1">Is this text blue ?</string>
+
+<string name="ToggleButton_question15">TogglebuttonActivity: Question 15 ?</string>
+    <string name="ToggleButton_question15_app1">TogglebuttonActivity: Question 15 ?</string>
+
+<string name="ToggleButton_question16">TogglebuttonActivity: Question 16 ?</string>
+    <string name="ToggleButton_question16_app1">TogglebuttonActivity: Question 16 ?</string>
+
+<string name="ToggleButton_question17">TogglebuttonActivity: Question 17 ?</string>
+    <string name="ToggleButton_question17_app1">TogglebuttonActivity: Question 17 ?</string>
+
+<string name="ToggleButton_question18">TogglebuttonActivity: Question 18 ?</string>
+    <string name="ToggleButton_question18_app1">TogglebuttonActivity: Question 18 ?</string>
+
+<string name="ToggleButton_question19">TogglebuttonActivity: Question 19 ?</string>
+    <string name="ToggleButton_question19_app1">TogglebuttonActivity: Question 19 ?</string>
+
+<string name="ToggleButton_question20">TogglebuttonActivity: Question 20 ?</string>
+    <string name="ToggleButton_question20_app1">TogglebuttonActivity: Question 20 ?</string>
+
 <string name="title_activity_switch">SwitchActivity</string>
 <string name="Switch_question1">SwitchActivity: Question 1 ?</string>
 <string name="switch_answer_on">switch on</string>
@@ -201,6 +374,18 @@
 
     <string name="text_answer8_hint">text_answer8_hint</string>
     <string name="text_answer8_app1_hint">Strday</string>
+
+    <string name="text_question9">text_question9 ?</string>
+    <string name="text_question9_app1">Which day comes after Monday ?</string>
+
+    <string name="text_question10">text_question10 ?</string>
+    <string name="text_question10_app1">Which day comes before Tuesday ?</string>
+
+    <string name="text_question11">text_question11 ?</string>
+    <string name="text_question11_app1">Which day comes before Wednesday ?</string>
+
+    <string name="text_question12">text_question12 ?</string>
+    <string name="text_question12_app1">Which day comes after Thursday ?</string>
 
 
 </resources>

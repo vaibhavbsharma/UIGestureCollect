@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="me.vaibhavbsharma.uigesturecollect.CheckboxActivity">
+    tools:context="me.vaibhavbsharma.uigesturecollect1.CheckboxActivity">
     <item android:id="@+id/subject_number"
         android:showAsAction="ifRoom|withText"
         android:title="@string/subject_number" />

@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,41 +19,47 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-
-public class TextActivity extends FragmentActivity {
-    public static final String TAG = "TextActivity";
+public class RadiobuttonActivity extends FragmentActivity {
+    public static final String TAG = "RadiobuttonActivity";
     private VelocityTracker mVelocityTracker = null;
-    public static final String FRAGTAG = "TextGDFragment";
-    CustomKeyboard mCustomKeyboard;
-
+    public static final String FRAGTAG = "RadiobuttonGDFragment";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_text);
+        setContentView(R.layout.activity_radiobutton);
 
         if (getSupportFragmentManager().findFragmentByTag(FRAGTAG) == null ) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            TextGDFragment fragment = new TextGDFragment();
+            RadiobuttonGDFragment fragment = new RadiobuttonGDFragment();
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
-        mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
-        mCustomKeyboard.registerEditText(R.id.text_name_string);
-        mCustomKeyboard.registerEditText(R.id.text_subject_number);
-        mCustomKeyboard.registerEditText(R.id.text_answer3);
-        mCustomKeyboard.registerEditText(R.id.text_answer4);
-        mCustomKeyboard.registerEditText(R.id.text_answer5);
-        mCustomKeyboard.registerEditText(R.id.text_answer6);
-        mCustomKeyboard.registerEditText(R.id.text_answer7);
-        mCustomKeyboard.registerEditText(R.id.text_answer8);
+    }
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+        android.util.Log.i(TAG, "onStart called at " + SystemClock.uptimeMillis());
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        android.util.Log.i(TAG, "onStop called at " + SystemClock.uptimeMillis());
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        android.util.Log.i(TAG, "onRestart called at " + SystemClock.uptimeMillis());
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_text, menu);
+        getMenuInflater().inflate(R.menu.menu_radiobutton, menu);
         MenuItem subjectNumber = menu.findItem(R.id.subject_number);
         String filename = "SubjectNumber.txt";
         int subjNumber=-1;
@@ -66,7 +72,7 @@ public class TextActivity extends FragmentActivity {
             String line;
 
             while ((line = br.readLine()) != null) {
-                Log.i(TAG, "read: " + line);
+                android.util.Log.i(TAG, "read: " + line);
                 text.append(line);
             }
             br.close();
@@ -80,36 +86,28 @@ public class TextActivity extends FragmentActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        /*// Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);*/
         return true;
     }
-
     /* Called when the user clicks the Next button */
-    public void startCheckboxActivity(View view) {
-        Log.i(TAG, "startCheckboxActivity called");
-        Intent intent = new Intent(this, CheckboxActivity.class);
+    public void startTogglebuttonActivity(View view) {
+        Log.i(TAG, "startTogglebuttonActivity called");
+        Intent intent = new Intent(this, TogglebuttonActivity.class);
         startActivity(intent);
     }
 
-    @Override
-    protected void onStart(){
-        super.onStart();
-        Log.i(TAG,"onStart called at "+ SystemClock.uptimeMillis());
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i(TAG,"onStop called at "+ SystemClock.uptimeMillis());
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.i(TAG,"onRestart called at "+ SystemClock.uptimeMillis());
-    }
-
     public boolean dispatchTouchEvent(MotionEvent event) {
-        Log.i(TAG, "dispatchTouchEvent called");
+        android.util.Log.i(TAG, "dispatchTouchEvent called");
         int index = event.getActionIndex();
         int action = event.getActionMasked();
         int pointerId = event.getPointerId(index);
@@ -118,22 +116,22 @@ public class TextActivity extends FragmentActivity {
 
         switch(action) {
             case MotionEvent.ACTION_DOWN:
-                Log.i(TAG, "ACTION_DOWN at time = " + SystemClock.uptimeMillis());
+                android.util.Log.i(TAG, "ACTION_DOWN at time = " + SystemClock.uptimeMillis());
                 historySize = event.getHistorySize();
                 pointerCount = event.getPointerCount();
                 for (int h = 0; h < historySize; h++) {
                     System.out.printf("At time %d:", event.getHistoricalEventTime(h));
                     for (int p = 0; p < pointerCount; p++) {
-                        Log.i(TAG, "  pointer " +
+                        android.util.Log.i(TAG, "  pointer " +
                                 event.getPointerId(p) + " " + event.getX(p) + " " + event.getY(p) +
-                                " " + event.getPressure(p) + " " + event.getOrientation(p) +" "+event.getSize());
+                                " " + event.getPressure(p) + " " + event.getOrientation(p) + " " + event.getSize());
                     }
                 }
-                Log.i(TAG, "At time " + event.getEventTime());
+                android.util.Log.i(TAG, "At time " + event.getEventTime());
                 for (int p = 0; p < pointerCount; p++) {
-                    Log.i(TAG, "  pointer " +
+                    android.util.Log.i(TAG, "  pointer " +
                             event.getPointerId(p) + " " + event.getX(p) + " " + event.getY(p) +
-                            " " + event.getPressure(p) + " " + event.getOrientation(p) +" "+event.getSize());
+                            " " + event.getPressure(p) + " " + event.getOrientation(p) + " " + event.getSize());
                 }
                 if(mVelocityTracker == null) {
                     // Retrieve a new VelocityTracker object to watch the velocity of a motion.
@@ -147,7 +145,7 @@ public class TextActivity extends FragmentActivity {
                 mVelocityTracker.addMovement(event);
                 break;
             case MotionEvent.ACTION_MOVE:
-                Log.i(TAG, "ACTION_MOVE at time = " + SystemClock.uptimeMillis());
+                android.util.Log.i(TAG, "ACTION_MOVE at time = " + SystemClock.uptimeMillis());
                 mVelocityTracker.addMovement(event);
                 // When you want to determine the velocity, call
                 // computeCurrentVelocity(). Then call getXVelocity()
@@ -155,10 +153,10 @@ public class TextActivity extends FragmentActivity {
                 mVelocityTracker.computeCurrentVelocity(1000);
                 // Log velocity of pixels per second
                 // Best practice to use VelocityTrackerCompat where possible.
-                Log.d("", "X velocity: " +
+                android.util.Log.d("", "X velocity: " +
                         VelocityTrackerCompat.getXVelocity(mVelocityTracker,
                                 pointerId));
-                Log.d("", "Y velocity: " +
+                android.util.Log.d("", "Y velocity: " +
                         VelocityTrackerCompat.getYVelocity(mVelocityTracker,
                                 pointerId));
 
@@ -167,36 +165,36 @@ public class TextActivity extends FragmentActivity {
                 for (int h = 0; h < historySize; h++) {
                     System.out.printf("At time %d:", event.getHistoricalEventTime(h));
                     for (int p = 0; p < pointerCount; p++) {
-                        Log.i(TAG, "  pointer " +
+                        android.util.Log.i(TAG, "  pointer " +
                                 event.getPointerId(p) + " " + event.getX(p) + " " + event.getY(p) +
-                                " " + event.getPressure(p) + " " + event.getOrientation(p) +" "+event.getSize());
+                                " " + event.getPressure(p) + " " + event.getOrientation(p) + " " + event.getSize());
                     }
                 }
-                Log.i(TAG, "At time " + event.getEventTime());
+                android.util.Log.i(TAG, "At time " + event.getEventTime());
                 for (int p = 0; p < pointerCount; p++) {
-                    Log.i(TAG, "  pointer " +
+                    android.util.Log.i(TAG, "  pointer " +
                             event.getPointerId(p) + " " + event.getX(p) + " " + event.getY(p) +
-                            " " + event.getPressure(p) + " " + event.getOrientation(p) +" "+event.getSize());
+                            " " + event.getPressure(p) + " " + event.getOrientation(p) + " " + event.getSize());
                 }
 
                 break;
             case MotionEvent.ACTION_UP:
-                Log.i(TAG, "ACTION_UP at time = " + SystemClock.uptimeMillis());
+                android.util.Log.i(TAG, "ACTION_UP at time = " + SystemClock.uptimeMillis());
                 historySize = event.getHistorySize();
                 pointerCount = event.getPointerCount();
                 for (int h = 0; h < historySize; h++) {
                     System.out.printf("At time %d:", event.getHistoricalEventTime(h));
                     for (int p = 0; p < pointerCount; p++) {
-                        Log.i(TAG, "  pointer " +
+                        android.util.Log.i(TAG, "  pointer " +
                                 event.getPointerId(p) + " " + event.getX(p) + " " + event.getY(p) +
-                                " " + event.getPressure(p) + " " + event.getOrientation(p) +" "+event.getSize());
+                                " " + event.getPressure(p) + " " + event.getOrientation(p) + " " + event.getSize());
                     }
                 }
-                Log.i(TAG, "At time " + event.getEventTime());
+                android.util.Log.i(TAG, "At time " + event.getEventTime());
                 for (int p = 0; p < pointerCount; p++) {
-                    Log.i(TAG, "  pointer " +
+                    android.util.Log.i(TAG, "  pointer " +
                             event.getPointerId(p) + " " + event.getX(p) + " " + event.getY(p) +
-                            " " + event.getPressure(p) + " " + event.getOrientation(p) +" "+event.getSize());
+                            " " + event.getPressure(p) + " " + event.getOrientation(p) + " " + event.getSize());
                 }
             case MotionEvent.ACTION_CANCEL:
                 // Return a VelocityTracker object back to be re-used by others.
@@ -206,10 +204,4 @@ public class TextActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
-    @Override
-    public void onBackPressed() {
-        // NOTE Trap the back key: when the CustomKeyboard is still visible hide it, only when it is invisible, finish activity
-        if( mCustomKeyboard.isCustomKeyboardVisible() ) mCustomKeyboard.hideCustomKeyboard(); else this.finish();
-    }
-
 }

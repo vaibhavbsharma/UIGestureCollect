@@ -1,92 +1,51 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.VelocityTrackerCompat;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
 
-/*
-* Copyright 2013 The Android Open Source Project
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
-
-import android.content.Intent;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.VelocityTrackerCompat;
-import android.view.MenuItem;
-
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 
 
-/**
- * A simple launcher activity containing a summary sample description
- * and a few action bar buttons.
- */
-public class MainActivity extends FragmentActivity {
-
-    public static final String TAG = "MainActivity";
-
-    public static final String FRAGTAG = "BasicGestureDetectFragment";
-
+public class CheckboxActivity extends FragmentActivity {
+    public static final String TAG = "CheckboxActivity";
     private VelocityTracker mVelocityTracker = null;
-
-    CustomKeyboard mCustomKeyboard;
+    public static final String FRAGTAG = "CheckboxGDFragment";
+    //CustomKeyboard mCustomKeyboard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_checkbox);
 
         if (getSupportFragmentManager().findFragmentByTag(FRAGTAG) == null ) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            BasicGestureDetectFragment fragment = new BasicGestureDetectFragment();
+            CheckboxGDFragment fragment = new CheckboxGDFragment();
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
-        mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
-        mCustomKeyboard.registerEditText(R.id.name_string);
-        mCustomKeyboard.registerEditText(R.id.number_string);
-        mCustomKeyboard.registerEditText(R.id.subject_number);
-        mCustomKeyboard.registerEditText(R.id.qwerty_string);
-
+        //mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
+        //mCustomKeyboard.registerEditText(R.id.checkbox_answer1);
+        //mCustomKeyboard.registerEditText(R.id.checkbox_answer2);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        FileOutputStream outputStream;
-
-        /*
-        //SubjectNumber writing code
-        try {
-            outputStream = openFileOutput("SubjectNumber.txt", Context.MODE_PRIVATE);
-            outputStream.write(("001").getBytes());
-            outputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        */
-
+        getMenuInflater().inflate(R.menu.menu_checkbox, menu);
         MenuItem subjectNumber = menu.findItem(R.id.subject_number);
         String filename = "SubjectNumber.txt";
         int subjNumber=-1;
@@ -111,33 +70,19 @@ public class MainActivity extends FragmentActivity {
         return true;
     }
 
-    /** Create a chain of targets that will receive log data */
-    /*@Override
-    public void initializeLogging() {
-        // Wraps Android's native log framework.
-        LogWrapper logWrapper = new LogWrapper();
-        // Using Log, front-end to the logging chain, emulates android.util.log method signatures.
-        Log.setLogNode(logWrapper);
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        /*// Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
 
-        // Filter strips out everything except the message text.
-        MessageOnlyLogFilter msgFilter = new MessageOnlyLogFilter();
-        logWrapper.setNext(msgFilter);
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }*/
 
-        // On screen logging via a fragment with a TextView.
-        LogFragment logFragment = (LogFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.log_fragment);
-        msgFilter.setNext(logFragment.getLogView());
-        logFragment.getLogView().setTextAppearance(this, R.style.Log);
-        logFragment.getLogView().setBackgroundColor(Color.WHITE);
-
-        Log.i(TAG, "Ready called at "+ SystemClock.uptimeMillis());
-    }*/
-
-    /* Called when the user clicks the Next button */
-    public void startTextActivity(View view) {
-        Log.i(TAG, "startTextActivity called at "+ SystemClock.uptimeMillis());
-        Intent intent = new Intent(this, TextActivity.class);
-        startActivity(intent);
+        return true;
     }
 
     @Override
@@ -156,6 +101,13 @@ public class MainActivity extends FragmentActivity {
     protected void onRestart() {
         super.onRestart();
         Log.i(TAG,"onRestart called at "+ SystemClock.uptimeMillis());
+    }
+
+    /* Called when the user clicks the Next button */
+    public void startRadiobuttonActivity(View view) {
+        Log.i(TAG, "startRadiobuttonActivity called");
+        Intent intent = new Intent(this, RadiobuttonActivity.class);
+        startActivity(intent);
     }
 
     public boolean dispatchTouchEvent(MotionEvent event) {
@@ -256,46 +208,5 @@ public class MainActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
-    @Override public void onBackPressed() {
-        // NOTE Trap the back key: when the CustomKeyboard is still visible hide it, only when it is invisible, finish activity
-        if( mCustomKeyboard.isCustomKeyboardVisible() ) mCustomKeyboard.hideCustomKeyboard(); else this.finish();
-    }
-
 
 }
-
-
-
-
-
-
-/*package nl.fampennings.keyboardoriginal;
-
-import android.app.Activity;
-import android.os.Bundle;
-
-public class MainActivity extends Activity {
-
-    CustomKeyboard mCustomKeyboard;
-
-    @Override protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
-
-        mCustomKeyboard.registerEditText(R.id.edittext0);
-        mCustomKeyboard.registerEditText(R.id.edittext1);
-        mCustomKeyboard.registerEditText(R.id.edittext2);
-        mCustomKeyboard.registerEditText(R.id.edittext3);
-        mCustomKeyboard.registerEditText(R.id.edittext4);
-    }
-
-    @Override public void onBackPressed() {
-        // NOTE Trap the back key: when the CustomKeyboard is still visible hide it, only when it is invisible, finish activity
-        if( mCustomKeyboard.isCustomKeyboardVisible() ) mCustomKeyboard.hideCustomKeyboard(); else this.finish();
-    }
-
-}*/
-
-

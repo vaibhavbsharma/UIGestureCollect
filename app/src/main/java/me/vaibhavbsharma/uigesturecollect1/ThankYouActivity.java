@@ -1,88 +1,31 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 
-
-import android.content.Intent;
+import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.VelocityTrackerCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
-import android.view.View;
-
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 
 
-public class CheckboxActivity extends FragmentActivity {
-    public static final String TAG = "CheckboxActivity";
+public class ThankYouActivity extends Activity {
     private VelocityTracker mVelocityTracker = null;
-    public static final String FRAGTAG = "CheckboxGDFragment";
-    CustomKeyboard mCustomKeyboard;
+    public static final String TAG = "ThankYouActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkbox);
-
-        if (getSupportFragmentManager().findFragmentByTag(FRAGTAG) == null ) {
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            CheckboxGDFragment fragment = new CheckboxGDFragment();
-            transaction.add(fragment, FRAGTAG);
-            transaction.commit();
-        }
-        //mCustomKeyboard= new CustomKeyboard(this, R.id.keyboardview, R.xml.hexkbd );
-        //mCustomKeyboard.registerEditText(R.id.checkbox_answer1);
-        //mCustomKeyboard.registerEditText(R.id.checkbox_answer2);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_checkbox, menu);
-        MenuItem subjectNumber = menu.findItem(R.id.subject_number);
-        String filename = "SubjectNumber.txt";
-        int subjNumber=-1;
-
-        File file = new File(getApplicationContext().getFilesDir(),filename);
-        StringBuilder text = new StringBuilder();
-
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String line;
-
-            while ((line = br.readLine()) != null) {
-                Log.i(TAG,"read: "+line);
-                text.append(line);
-            }
-            br.close();
-        }
-        catch (IOException e) {
-            //You'll need to add proper error handling here
-        }
-        subjectNumber.setTitle("Subject # "+text);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        /*// Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }*/
-
-        return true;
+        setContentView(R.layout.activity_thank_you);
     }
 
     @Override
@@ -103,11 +46,62 @@ public class CheckboxActivity extends FragmentActivity {
         Log.i(TAG,"onRestart called at "+ SystemClock.uptimeMillis());
     }
 
-    /* Called when the user clicks the Next button */
-    public void startRadiobuttonActivity(View view) {
-        Log.i(TAG, "startRadiobuttonActivity called");
-        Intent intent = new Intent(this, RadiobuttonActivity.class);
-        startActivity(intent);
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_thank_you, menu);
+        MenuItem subjectNumber = menu.findItem(R.id.subject_number);
+        String filename = "SubjectNumber.txt";
+        int subjNumber=-1;
+
+        File file = new File(getApplicationContext().getFilesDir(),filename);
+        StringBuilder text = new StringBuilder();
+
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String line;
+
+            while ((line = br.readLine()) != null) {
+                Log.i(TAG,"read: "+line);
+                text.append(line);
+            }
+            br.close();
+        }
+        catch (IOException e) {
+            Log.i(TAG,"SubjectNumber.txt could not be opened/read");
+            //You'll need to add proper error handling here
+        }
+        subjectNumber.setTitle("Subject # "+text);
+
+        FileOutputStream outputStream;
+        subjNumber = Integer.parseInt(text.toString())+1;
+
+        try {
+            outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+            outputStream.write(("00"+Integer.toString(subjNumber)).getBytes());
+            outputStream.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        /*int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);*/
+        return true;
     }
 
     public boolean dispatchTouchEvent(MotionEvent event) {
@@ -208,5 +202,4 @@ public class CheckboxActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
-
 }

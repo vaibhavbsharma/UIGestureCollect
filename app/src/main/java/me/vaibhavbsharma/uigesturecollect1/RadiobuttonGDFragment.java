@@ -1,4 +1,4 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
 /*
 * Copyright (C) 2013 The Android Open Source Project
 *

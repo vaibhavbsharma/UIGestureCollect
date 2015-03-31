@@ -1,4 +1,5 @@
-package me.vaibhavbsharma.uigesturecollect;
+package me.vaibhavbsharma.uigesturecollect1;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,48 +19,29 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class PickerActivity extends FragmentActivity {
-    public static final String TAG = "PickerActivity";
+public class SwitchActivity extends FragmentActivity {
+    public static final String TAG = "SwitchActivity";
     private VelocityTracker mVelocityTracker = null;
-    public static final String FRAGTAG = "PickerGDFragment";
+    public static final String FRAGTAG = "SwitchGDFragment";
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_picker);
-
+        setContentView(R.layout.activity_switch);
         if (getSupportFragmentManager().findFragmentByTag(FRAGTAG) == null ) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            PickerGDFragment fragment = new PickerGDFragment();
+            SwitchGDFragment fragment = new SwitchGDFragment();
             transaction.add(fragment, FRAGTAG);
             transaction.commit();
         }
     }
 
-    @Override
-    protected void onStart(){
-        super.onStart();
-        android.util.Log.i(TAG, "onStart called at " + SystemClock.uptimeMillis());
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        android.util.Log.i(TAG, "onStop called at " + SystemClock.uptimeMillis());
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        android.util.Log.i(TAG, "onRestart called at " + SystemClock.uptimeMillis());
-    }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_picker, menu);
+        getMenuInflater().inflate(R.menu.menu_switch, menu);
         MenuItem subjectNumber = menu.findItem(R.id.subject_number);
         String filename = "SubjectNumber.txt";
         int subjNumber=-1;
@@ -85,6 +67,24 @@ public class PickerActivity extends FragmentActivity {
     }
 
     @Override
+    protected void onStart(){
+        super.onStart();
+        android.util.Log.i(TAG, "onStart called at " + SystemClock.uptimeMillis());
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        android.util.Log.i(TAG, "onStop called at " + SystemClock.uptimeMillis());
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        android.util.Log.i(TAG, "onRestart called at " + SystemClock.uptimeMillis());
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         /*// Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -101,9 +101,9 @@ public class PickerActivity extends FragmentActivity {
     }
 
     /* Called when the user clicks the Next button */
-    public void startFinalActivity(View view) {
-        Log.i(TAG, "startFinalActivity called");
-        Intent intent = new Intent(this, FinalActivity.class);
+    public void startSpinnerActivity(View view) {
+        Log.i(TAG, "startSpinnerActivity called");
+        Intent intent = new Intent(this, SpinnerActivity.class);
         startActivity(intent);
     }
 
@@ -205,6 +205,5 @@ public class PickerActivity extends FragmentActivity {
         }
         return super.dispatchTouchEvent(event);
     }
-
-
 }
+

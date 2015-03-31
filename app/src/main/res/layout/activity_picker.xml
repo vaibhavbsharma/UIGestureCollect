@@ -25,7 +25,7 @@
                 android:text="@string/Picker_question1"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                 android:text="@string/Picker_question2"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
                 android:text="@string/Picker_question3"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -108,7 +108,7 @@
                 android:text="@string/Picker_question4"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
                 android:text="@string/Picker_question5"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
                 android:text="@string/Picker_question6"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -189,7 +189,7 @@
                 android:text="@string/Picker_question7"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
                 android:text="@string/Picker_question8"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -243,7 +243,7 @@
                 android:text="@string/Picker_question9"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -270,7 +270,7 @@
                 android:text="@string/Picker_question10"
                 />
 
-            <me.vaibhavbsharma.uigesturecollect.myNumberPicker
+            <me.vaibhavbsharma.uigesturecollect1.myNumberPicker
                 android:id="@+id/numberPicker10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
